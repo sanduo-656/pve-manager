@@ -22,6 +22,8 @@ PVE 管家让你在 Android 手机上查看 Proxmox VE 虚拟机与容器、执�
 
 下载 [PVE-Manager-0.4.1+6-release.apk](https://github.com/sanduo-656/pve-manager/releases/download/v0.4.1/PVE-Manager-0.4.1%2B6-release.apk) 和 [SHA256SUMS.txt](https://github.com/sanduo-656/pve-manager/releases/download/v0.4.1/SHA256SUMS.txt)。
 
+另附 [完整源码包](https://github.com/sanduo-656/pve-manager/releases/download/v0.4.1/PVE-Manager-0.4.1%2B6-source.zip) 和 [介绍素材包](https://github.com/sanduo-656/pve-manager/releases/download/v0.4.1/PVE-Manager-0.4.1%2B6-presentation.zip)。素材包包含可复制的中文介绍稿、两张 1920×1080 介绍图、界面截图及账号配置指南；校验文件包含上述三个下载文件的 SHA-256。
+
 | 项目 | 信息 |
 | --- | --- |
 | Android 版本 | 7.0 及以上，min SDK 24 |

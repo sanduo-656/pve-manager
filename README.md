@@ -4,9 +4,9 @@
 
 PVE 管家是面向 Proxmox VE 8/9 的第三方客户端，提供中文界面、多连接管理、资源电源操作和 PVE 自带的远程控制台。当前版本为 **0.4.1+6**，适用于 **Android 7.0 及以上**。
 
-[下载安装包](https://github.com/sanduo-656/pve-manager/releases/tag/v0.4.1) · [本版更新](docs/release-v0.4.1.md) · [PVE 账号与权限配置](docs/pve_setup.md)
+[下载安装包](https://github.com/sanduo-656/pve-manager/releases/tag/v0.4.1) · [本版更新](docs/release-v0.4.1.md) · [介绍文字稿](docs/project-introduction.md) · [PVE 账号与权限配置](docs/pve_setup.md)
 
-![PVE 管家：资源管理、登录与节点监控](docs/images/pve-manager-overview.png)
+![PVE 管家：资源管理与节点监控](docs/images/pve-manager-overview.png)
 
 ## 可以做什么
 
@@ -49,6 +49,8 @@ PVE 管家是面向 Proxmox VE 8/9 的第三方客户端，提供中文界面、
 ## 下载与使用
 
 从 [GitHub Releases](https://github.com/sanduo-656/pve-manager/releases/tag/v0.4.1) 下载 `PVE-Manager-0.4.1+6-release.apk`，同时下载 `SHA256SUMS.txt` 可核对安装包。当前包约 64.4 MiB，包含 arm64-v8a、armeabi-v7a 和 x86_64。
+
+同一发布页提供完整源码压缩包和介绍素材包。素材包包含中文介绍稿、两张 1920×1080 介绍图、界面截图和账号配置指南。
 
 当前 APK 使用内部测试签名，适合测试与体验；尚未作为正式商店签名版本发布。版本号显示在应用内首页，桌面名称保持“PVE 管家”。
 
