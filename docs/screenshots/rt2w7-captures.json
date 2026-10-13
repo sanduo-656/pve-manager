@@ -1,0 +1,43 @@
+{
+  "reference": {
+    "designNode": "rt2w7",
+    "rendering": "Real Flutter presentation components; pixelRatio=1.",
+    "data": "Offline examples only; no API client or credential store.",
+    "fixtureResourceCount": 3,
+    "referenceResourceCount": 12,
+    "dataDifference": "The fixture has 3 resources: 2 running, 1 stopped. Counts are derived from these real fixture rows, rather than the reference totals 12/8/4.",
+    "systemBar": "Acceptance-only 52px status-bar illustration with 9:41 and Lucide icons. Production uses the native Android system bar."
+  },
+  "captures": [
+    {
+      "name": "rt2w7_home_390x905",
+      "width": 390,
+      "height": 905,
+      "pixelRatio": 1
+    },
+    {
+      "name": "rt2w7_detail_390x843",
+      "width": 390,
+      "height": 843,
+      "pixelRatio": 1
+    },
+    {
+      "name": "rt2w7_form_390x886",
+      "width": 390,
+      "height": 886,
+      "pixelRatio": 1
+    },
+    {
+      "name": "rt2w7_wide_home_720x1280",
+      "width": 720,
+      "height": 1280,
+      "pixelRatio": 1
+    },
+    {
+      "name": "rt2w7_wide_detail_720x1280",
+      "width": 720,
+      "height": 1280,
+      "pixelRatio": 1
+    }
+  ]
+}

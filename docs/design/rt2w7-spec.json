@@ -1,0 +1,5712 @@
+{
+  "nodeId": "rt2w7",
+  "screens": [
+    {
+      "id": "C27vcg",
+      "nodes": [
+        {
+          "id": "C27vcg",
+          "depth": 0,
+          "bounds": {
+            "x": 0,
+            "y": 33,
+            "width": 390,
+            "height": 905
+          },
+          "node": {
+            "type": "frame",
+            "id": "C27vcg",
+            "name": "PVE 管家 · 01 资源首页",
+            "clip": true,
+            "width": 390,
+            "fill": "#F5F7FB",
+            "cornerRadius": 20,
+            "stroke": "#DDE3EE",
+            "strokeWidth": 1,
+            "layout": "vertical",
+            "padding": [
+              0,
+              0,
+              14,
+              0
+            ]
+          }
+        },
+        {
+          "id": "GjCNK",
+          "parent": "C27vcg",
+          "depth": 1,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 52
+          },
+          "node": {
+            "type": "frame",
+            "id": "GjCNK",
+            "name": "系统状态栏",
+            "width": "fill_container",
+            "height": 52,
+            "padding": [
+              18,
+              24
+            ],
+            "justifyContent": "space_between",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "i951Cq",
+          "parent": "GjCNK",
+          "depth": 2,
+          "bounds": {
+            "x": 24,
+            "y": 17.5,
+            "width": 29,
+            "height": 17
+          },
+          "node": {
+            "type": "text",
+            "id": "i951Cq",
+            "name": "时间",
+            "fill": "#172239",
+            "content": "9:41",
+            "fontFamily": "Inter",
+            "fontSize": 14,
+            "fontWeight": "600"
+          }
+        },
+        {
+          "id": "T0XXo",
+          "parent": "GjCNK",
+          "depth": 2,
+          "bounds": {
+            "x": 306,
+            "y": 18,
+            "width": 60,
+            "height": 16
+          },
+          "node": {
+            "type": "frame",
+            "id": "T0XXo",
+            "name": "信号与电量",
+            "gap": 6,
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "tA0hB",
+          "parent": "T0XXo",
+          "depth": 3,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 16,
+            "height": 16
+          },
+          "node": {
+            "type": "icon",
+            "id": "tA0hB",
+            "name": "signal",
+            "width": 16,
+            "height": 16,
+            "icon": "signal",
+            "library": "lucide",
+            "fill": "#172239"
+          }
+        },
+        {
+          "id": "ZbNvN",
+          "parent": "T0XXo",
+          "depth": 3,
+          "bounds": {
+            "x": 22,
+            "y": 0,
+            "width": 16,
+            "height": 16
+          },
+          "node": {
+            "type": "icon",
+            "id": "ZbNvN",
+            "name": "wifi",
+            "width": 16,
+            "height": 16,
+            "icon": "wifi",
+            "library": "lucide",
+            "fill": "#172239"
+          }
+        },
+        {
+          "id": "q0vqs",
+          "parent": "T0XXo",
+          "depth": 3,
+          "bounds": {
+            "x": 44,
+            "y": 0,
+            "width": 16,
+            "height": 16
+          },
+          "node": {
+            "type": "icon",
+            "id": "q0vqs",
+            "name": "battery-full",
+            "width": 16,
+            "height": 16,
+            "icon": "battery-full",
+            "library": "lucide",
+            "fill": "#172239"
+          }
+        },
+        {
+          "id": "dTq9k",
+          "parent": "C27vcg",
+          "depth": 1,
+          "bounds": {
+            "x": 0,
+            "y": 52,
+            "width": 390,
+            "height": 773
+          },
+          "node": {
+            "type": "frame",
+            "id": "dTq9k",
+            "name": "资源工作区",
+            "width": "fill_container",
+            "layout": "vertical",
+            "gap": 22,
+            "padding": [
+              12,
+              22,
+              24,
+              22
+            ]
+          }
+        },
+        {
+          "id": "k90yr",
+          "parent": "dTq9k",
+          "depth": 2,
+          "bounds": {
+            "x": 22,
+            "y": 12,
+            "width": 346,
+            "height": 57
+          },
+          "node": {
+            "type": "frame",
+            "id": "k90yr",
+            "name": "页面标题",
+            "width": "fill_container",
+            "justifyContent": "space_between",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "A5Wkd",
+          "parent": "k90yr",
+          "depth": 3,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 133,
+            "height": 57
+          },
+          "node": {
+            "type": "frame",
+            "id": "A5Wkd",
+            "name": "应用名称",
+            "layout": "vertical",
+            "gap": 4
+          }
+        },
+        {
+          "id": "apN1Z",
+          "parent": "A5Wkd",
+          "depth": 4,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 104,
+            "height": 36
+          },
+          "node": {
+            "type": "text",
+            "id": "apN1Z",
+            "name": "产品标题",
+            "fill": "#172239",
+            "content": "PVE 管家",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 25,
+            "fontWeight": "700"
+          }
+        },
+        {
+          "id": "raejy",
+          "parent": "A5Wkd",
+          "depth": 4,
+          "bounds": {
+            "x": 0,
+            "y": 40,
+            "width": 133,
+            "height": 17
+          },
+          "node": {
+            "type": "text",
+            "id": "raejy",
+            "name": "产品副标题",
+            "fill": "#68758C",
+            "content": "你的基础设施，一目了然",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 12,
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "pmXQz",
+          "parent": "k90yr",
+          "depth": 3,
+          "bounds": {
+            "x": 302,
+            "y": 6.5,
+            "width": 44,
+            "height": 44
+          },
+          "node": {
+            "type": "frame",
+            "id": "pmXQz",
+            "name": "刷新按钮",
+            "width": 44,
+            "height": 44,
+            "fill": "#FFFFFF",
+            "cornerRadius": 12,
+            "stroke": "#E4E8F0",
+            "strokeWidth": 1,
+            "justifyContent": "center",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "rvHwy",
+          "parent": "pmXQz",
+          "depth": 4,
+          "bounds": {
+            "x": 13,
+            "y": 13,
+            "width": 18,
+            "height": 18
+          },
+          "node": {
+            "type": "icon",
+            "id": "rvHwy",
+            "name": "刷新图标",
+            "width": 18,
+            "height": 18,
+            "icon": "refresh-cw",
+            "library": "lucide",
+            "fill": "#46536E"
+          }
+        },
+        {
+          "id": "wXVuR",
+          "parent": "dTq9k",
+          "depth": 2,
+          "bounds": {
+            "x": 22,
+            "y": 91,
+            "width": 346,
+            "height": 19
+          },
+          "node": {
+            "type": "frame",
+            "id": "wXVuR",
+            "name": "连接选择",
+            "width": "fill_container",
+            "gap": 8,
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "uGLdI",
+          "parent": "wXVuR",
+          "depth": 3,
+          "bounds": {
+            "x": 0,
+            "y": 6,
+            "width": 7,
+            "height": 7
+          },
+          "node": {
+            "type": "ellipse",
+            "id": "uGLdI",
+            "name": "连接状态点",
+            "fill": "#15936A",
+            "width": 7,
+            "height": 7
+          }
+        },
+        {
+          "id": "GhpSl",
+          "parent": "wXVuR",
+          "depth": 3,
+          "bounds": {
+            "x": 15,
+            "y": 0,
+            "width": 66,
+            "height": 19
+          },
+          "node": {
+            "type": "text",
+            "id": "GhpSl",
+            "name": "当前连接",
+            "fill": "#34415B",
+            "content": "家庭实验室",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 13,
+            "fontWeight": "500"
+          }
+        },
+        {
+          "id": "ehDpC",
+          "parent": "wXVuR",
+          "depth": 3,
+          "bounds": {
+            "x": 89,
+            "y": 2,
+            "width": 15,
+            "height": 15
+          },
+          "node": {
+            "type": "icon",
+            "id": "ehDpC",
+            "name": "切换连接",
+            "width": 15,
+            "height": 15,
+            "icon": "chevron-down",
+            "library": "lucide",
+            "fill": "#64718A"
+          }
+        },
+        {
+          "id": "PrpBD",
+          "parent": "wXVuR",
+          "depth": 3,
+          "bounds": {
+            "x": 112,
+            "y": 1.5,
+            "width": 234,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "PrpBD",
+            "name": "更新时间",
+            "fill": "#6F7C92",
+            "textGrowth": "fixed-width",
+            "width": "fill_container",
+            "content": "刚刚更新",
+            "textAlign": "right",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11,
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "QMRbP",
+          "parent": "dTq9k",
+          "depth": 2,
+          "bounds": {
+            "x": 22,
+            "y": 132,
+            "width": 346,
+            "height": 106
+          },
+          "node": {
+            "type": "frame",
+            "id": "QMRbP",
+            "name": "资源运行概览",
+            "width": "fill_container",
+            "fill": "#3448C8",
+            "cornerRadius": 18,
+            "gap": 12,
+            "padding": 20,
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "M0K9gk",
+          "parent": "QMRbP",
+          "depth": 3,
+          "bounds": {
+            "x": 20,
+            "y": 20,
+            "width": 147,
+            "height": 66
+          },
+          "node": {
+            "type": "frame",
+            "id": "M0K9gk",
+            "name": "资源总量",
+            "width": "fill_container",
+            "layout": "vertical",
+            "gap": 5
+          }
+        },
+        {
+          "id": "Jshj8",
+          "parent": "M0K9gk",
+          "depth": 4,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 49,
+            "height": 17
+          },
+          "node": {
+            "type": "text",
+            "id": "Jshj8",
+            "name": "概览标签",
+            "fill": "#CDD5FF",
+            "content": "全部资源",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 12,
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "ctXSo",
+          "parent": "M0K9gk",
+          "depth": 4,
+          "bounds": {
+            "x": 0,
+            "y": 22,
+            "width": 57,
+            "height": 44
+          },
+          "node": {
+            "type": "frame",
+            "id": "ctXSo",
+            "name": "数量与单位",
+            "gap": 6,
+            "alignItems": "end"
+          }
+        },
+        {
+          "id": "XfmO4",
+          "parent": "ctXSo",
+          "depth": 5,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 38,
+            "height": 44
+          },
+          "node": {
+            "type": "text",
+            "id": "XfmO4",
+            "name": "资源数量",
+            "fill": "#FFFFFF",
+            "content": "12",
+            "fontFamily": "Inter",
+            "fontSize": 36,
+            "fontWeight": "600"
+          }
+        },
+        {
+          "id": "ys99p",
+          "parent": "ctXSo",
+          "depth": 5,
+          "bounds": {
+            "x": 44,
+            "y": 26.999999999999996,
+            "width": 13,
+            "height": 17.000000000000004
+          },
+          "node": {
+            "type": "text",
+            "id": "ys99p",
+            "name": "资源单位",
+            "fill": "#CDD5FF",
+            "content": "台",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 12,
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "ZIJ1U",
+          "parent": "QMRbP",
+          "depth": 3,
+          "bounds": {
+            "x": 179,
+            "y": 26,
+            "width": 147,
+            "height": 54
+          },
+          "node": {
+            "type": "frame",
+            "id": "ZIJ1U",
+            "name": "状态数量",
+            "width": "fill_container",
+            "layout": "vertical",
+            "gap": 12
+          }
+        },
+        {
+          "id": "a8h1BP",
+          "parent": "ZIJ1U",
+          "depth": 4,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 147,
+            "height": 21
+          },
+          "node": {
+            "type": "frame",
+            "id": "a8h1BP",
+            "name": "运行中数量",
+            "width": "fill_container",
+            "gap": 7,
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "Z2FM9",
+          "parent": "a8h1BP",
+          "depth": 5,
+          "bounds": {
+            "x": 0,
+            "y": 7.5,
+            "width": 6,
+            "height": 6
+          },
+          "node": {
+            "type": "ellipse",
+            "id": "Z2FM9",
+            "name": "运行中圆点",
+            "fill": "#8FE3BE",
+            "width": 6,
+            "height": 6
+          }
+        },
+        {
+          "id": "UNRd6",
+          "parent": "a8h1BP",
+          "depth": 5,
+          "bounds": {
+            "x": 13,
+            "y": 2,
+            "width": 37,
+            "height": 17
+          },
+          "node": {
+            "type": "text",
+            "id": "UNRd6",
+            "name": "运行中标签",
+            "fill": "#D9DFFF",
+            "content": "运行中",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 12,
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "iDzAS",
+          "parent": "a8h1BP",
+          "depth": 5,
+          "bounds": {
+            "x": 57,
+            "y": 0,
+            "width": 90,
+            "height": 21
+          },
+          "node": {
+            "type": "text",
+            "id": "iDzAS",
+            "name": "运行中值",
+            "fill": "#FFFFFF",
+            "textGrowth": "fixed-width",
+            "width": "fill_container",
+            "content": "8",
+            "textAlign": "right",
+            "fontFamily": "Inter",
+            "fontSize": 17,
+            "fontWeight": "600"
+          }
+        },
+        {
+          "id": "o3eIEl",
+          "parent": "ZIJ1U",
+          "depth": 4,
+          "bounds": {
+            "x": 0,
+            "y": 33,
+            "width": 147,
+            "height": 21
+          },
+          "node": {
+            "type": "frame",
+            "id": "o3eIEl",
+            "name": "已关机数量",
+            "width": "fill_container",
+            "gap": 7,
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "jjSHH",
+          "parent": "o3eIEl",
+          "depth": 5,
+          "bounds": {
+            "x": 0,
+            "y": 7.5,
+            "width": 6,
+            "height": 6
+          },
+          "node": {
+            "type": "ellipse",
+            "id": "jjSHH",
+            "name": "已关机圆点",
+            "fill": "#BAC4FA",
+            "width": 6,
+            "height": 6
+          }
+        },
+        {
+          "id": "e5Yxm",
+          "parent": "o3eIEl",
+          "depth": 5,
+          "bounds": {
+            "x": 13,
+            "y": 2,
+            "width": 37,
+            "height": 17
+          },
+          "node": {
+            "type": "text",
+            "id": "e5Yxm",
+            "name": "已关机标签",
+            "fill": "#D9DFFF",
+            "content": "已关机",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 12,
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "osV4D",
+          "parent": "o3eIEl",
+          "depth": 5,
+          "bounds": {
+            "x": 57,
+            "y": 0,
+            "width": 90,
+            "height": 21
+          },
+          "node": {
+            "type": "text",
+            "id": "osV4D",
+            "name": "已关机值",
+            "fill": "#FFFFFF",
+            "textGrowth": "fixed-width",
+            "width": "fill_container",
+            "content": "4",
+            "textAlign": "right",
+            "fontFamily": "Inter",
+            "fontSize": 17,
+            "fontWeight": "600"
+          }
+        },
+        {
+          "id": "Ssush",
+          "parent": "dTq9k",
+          "depth": 2,
+          "bounds": {
+            "x": 22,
+            "y": 260,
+            "width": 346,
+            "height": 94
+          },
+          "node": {
+            "type": "frame",
+            "id": "Ssush",
+            "name": "搜索与筛选",
+            "width": "fill_container",
+            "layout": "vertical",
+            "gap": 12
+          }
+        },
+        {
+          "id": "huRK6",
+          "parent": "Ssush",
+          "depth": 3,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 346,
+            "height": 46
+          },
+          "node": {
+            "type": "frame",
+            "id": "huRK6",
+            "name": "搜索资源",
+            "width": "fill_container",
+            "height": 46,
+            "fill": "#FFFFFF",
+            "cornerRadius": 12,
+            "stroke": "#E5E9F1",
+            "strokeWidth": 1,
+            "gap": 10,
+            "padding": [
+              0,
+              14
+            ],
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "i0jV5",
+          "parent": "huRK6",
+          "depth": 4,
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 18,
+            "height": 18
+          },
+          "node": {
+            "type": "icon",
+            "id": "i0jV5",
+            "name": "搜索图标",
+            "width": 18,
+            "height": 18,
+            "icon": "search",
+            "library": "lucide",
+            "fill": "#8A94A8"
+          }
+        },
+        {
+          "id": "jkx49",
+          "parent": "huRK6",
+          "depth": 4,
+          "bounds": {
+            "x": 42,
+            "y": 13.5,
+            "width": 99,
+            "height": 19
+          },
+          "node": {
+            "type": "text",
+            "id": "jkx49",
+            "name": "搜索提示",
+            "fill": "#6F7C92",
+            "content": "搜索名称或 VMID",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 13,
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "jBIcU",
+          "parent": "Ssush",
+          "depth": 3,
+          "bounds": {
+            "x": 0,
+            "y": 58,
+            "width": 346,
+            "height": 36
+          },
+          "node": {
+            "type": "frame",
+            "id": "jBIcU",
+            "name": "资源类型与状态筛选",
+            "width": "fill_container",
+            "gap": 8,
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "d82MLQ",
+          "parent": "jBIcU",
+          "depth": 4,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 57,
+            "height": 36
+          },
+          "node": {
+            "type": "frame",
+            "id": "d82MLQ",
+            "name": "全部筛选",
+            "height": 36,
+            "fill": "#E8ECFF",
+            "cornerRadius": 9,
+            "padding": [
+              0,
+              16
+            ],
+            "justifyContent": "center",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "q3yvc",
+          "parent": "d82MLQ",
+          "depth": 5,
+          "bounds": {
+            "x": 16,
+            "y": 9.5,
+            "width": 25,
+            "height": 17
+          },
+          "node": {
+            "type": "text",
+            "id": "q3yvc",
+            "name": "全部筛选文字",
+            "fill": "#3448C8",
+            "content": "全部",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 12,
+            "fontWeight": "600"
+          }
+        },
+        {
+          "id": "F8ZpZ",
+          "parent": "jBIcU",
+          "depth": 4,
+          "bounds": {
+            "x": 65,
+            "y": 0,
+            "width": 69,
+            "height": 36
+          },
+          "node": {
+            "type": "frame",
+            "id": "F8ZpZ",
+            "name": "虚拟机筛选",
+            "height": 36,
+            "fill": "#FFFFFF",
+            "cornerRadius": 9,
+            "padding": [
+              0,
+              16
+            ],
+            "justifyContent": "center",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "pPYVe",
+          "parent": "F8ZpZ",
+          "depth": 5,
+          "bounds": {
+            "x": 16,
+            "y": 9.5,
+            "width": 37,
+            "height": 17
+          },
+          "node": {
+            "type": "text",
+            "id": "pPYVe",
+            "name": "虚拟机筛选文字",
+            "fill": "#64718A",
+            "content": "虚拟机",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 12
+          }
+        },
+        {
+          "id": "sUrf0",
+          "parent": "jBIcU",
+          "depth": 4,
+          "bounds": {
+            "x": 142,
+            "y": 0,
+            "width": 57,
+            "height": 36
+          },
+          "node": {
+            "type": "frame",
+            "id": "sUrf0",
+            "name": "容器筛选",
+            "height": 36,
+            "fill": "#FFFFFF",
+            "cornerRadius": 9,
+            "padding": [
+              0,
+              16
+            ],
+            "justifyContent": "center",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "kcWvJ",
+          "parent": "sUrf0",
+          "depth": 5,
+          "bounds": {
+            "x": 16,
+            "y": 9.5,
+            "width": 25,
+            "height": 17
+          },
+          "node": {
+            "type": "text",
+            "id": "kcWvJ",
+            "name": "容器筛选文字",
+            "fill": "#64718A",
+            "content": "容器",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 12
+          }
+        },
+        {
+          "id": "SPigv",
+          "parent": "jBIcU",
+          "depth": 4,
+          "bounds": {
+            "x": 207,
+            "y": 0,
+            "width": 139,
+            "height": 36
+          },
+          "node": {
+            "type": "frame",
+            "id": "SPigv",
+            "name": "更多筛选",
+            "width": "fill_container",
+            "height": 36,
+            "gap": 4,
+            "justifyContent": "end",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "Zhq4z",
+          "parent": "SPigv",
+          "depth": 5,
+          "bounds": {
+            "x": 95,
+            "y": 10.5,
+            "width": 15,
+            "height": 15
+          },
+          "node": {
+            "type": "icon",
+            "id": "Zhq4z",
+            "name": "筛选图标",
+            "width": 15,
+            "height": 15,
+            "icon": "sliders-horizontal",
+            "library": "lucide",
+            "fill": "#64718A"
+          }
+        },
+        {
+          "id": "JwTaF",
+          "parent": "SPigv",
+          "depth": 5,
+          "bounds": {
+            "x": 114,
+            "y": 9.5,
+            "width": 25,
+            "height": 17
+          },
+          "node": {
+            "type": "text",
+            "id": "JwTaF",
+            "name": "状态筛选文字",
+            "fill": "#64718A",
+            "content": "状态",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 12,
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "n7toO",
+          "parent": "dTq9k",
+          "depth": 2,
+          "bounds": {
+            "x": 22,
+            "y": 376,
+            "width": 346,
+            "height": 335
+          },
+          "node": {
+            "type": "frame",
+            "id": "n7toO",
+            "name": "资源列表",
+            "clip": true,
+            "width": "fill_container",
+            "fill": "#FFFFFF",
+            "cornerRadius": 16,
+            "stroke": "#E5E9F1",
+            "strokeWidth": 1,
+            "layout": "vertical"
+          }
+        },
+        {
+          "id": "Iz7GX",
+          "parent": "n7toO",
+          "depth": 3,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 346,
+            "height": 111
+          },
+          "node": {
+            "type": "frame",
+            "id": "Iz7GX",
+            "name": "Ubuntu Server资源行",
+            "width": "fill_container",
+            "layout": "vertical",
+            "gap": 13,
+            "padding": 16
+          }
+        },
+        {
+          "id": "b2jqy",
+          "parent": "Iz7GX",
+          "depth": 4,
+          "bounds": {
+            "x": 16,
+            "y": 16,
+            "width": 314,
+            "height": 40
+          },
+          "node": {
+            "type": "frame",
+            "id": "b2jqy",
+            "name": "名称与运行状态",
+            "width": "fill_container",
+            "gap": 11,
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "bvBwY",
+          "parent": "b2jqy",
+          "depth": 5,
+          "bounds": {
+            "x": 0,
+            "y": 1,
+            "width": 38,
+            "height": 38
+          },
+          "node": {
+            "type": "frame",
+            "id": "bvBwY",
+            "name": "虚拟机图标底",
+            "width": 38,
+            "height": 38,
+            "fill": "#EDF0FF",
+            "cornerRadius": 10,
+            "justifyContent": "center",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "kXTWh",
+          "parent": "bvBwY",
+          "depth": 6,
+          "bounds": {
+            "x": 9.5,
+            "y": 9.5,
+            "width": 19,
+            "height": 19
+          },
+          "node": {
+            "type": "icon",
+            "id": "kXTWh",
+            "name": "虚拟机图标",
+            "width": 19,
+            "height": 19,
+            "icon": "monitor",
+            "library": "lucide",
+            "fill": "#4959CA"
+          }
+        },
+        {
+          "id": "D7kaQC",
+          "parent": "b2jqy",
+          "depth": 5,
+          "bounds": {
+            "x": 49,
+            "y": 0,
+            "width": 212,
+            "height": 40
+          },
+          "node": {
+            "type": "frame",
+            "id": "D7kaQC",
+            "name": "资源名称和身份",
+            "width": "fill_container",
+            "layout": "vertical",
+            "gap": 4
+          }
+        },
+        {
+          "id": "VdScZ",
+          "parent": "D7kaQC",
+          "depth": 6,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 99,
+            "height": 20
+          },
+          "node": {
+            "type": "text",
+            "id": "VdScZ",
+            "name": "资源名称",
+            "fill": "#202D45",
+            "content": "Ubuntu Server",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 14,
+            "fontWeight": "600"
+          }
+        },
+        {
+          "id": "X5N2zc",
+          "parent": "D7kaQC",
+          "depth": 6,
+          "bounds": {
+            "x": 0,
+            "y": 24,
+            "width": 118,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "X5N2zc",
+            "name": "资源标识",
+            "fill": "#6F7C92",
+            "content": "101 · pve-01 · 虚拟机",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11
+          }
+        },
+        {
+          "id": "wLhou",
+          "parent": "b2jqy",
+          "depth": 5,
+          "bounds": {
+            "x": 272,
+            "y": 12,
+            "width": 42,
+            "height": 16
+          },
+          "node": {
+            "type": "frame",
+            "id": "wLhou",
+            "name": "资源状态",
+            "gap": 4,
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "fyTJC",
+          "parent": "wLhou",
+          "depth": 6,
+          "bounds": {
+            "x": 0,
+            "y": 5.5,
+            "width": 5,
+            "height": 5
+          },
+          "node": {
+            "type": "ellipse",
+            "id": "fyTJC",
+            "name": "状态圆点",
+            "fill": "#15936A",
+            "width": 5,
+            "height": 5
+          }
+        },
+        {
+          "id": "t0EjNF",
+          "parent": "wLhou",
+          "depth": 6,
+          "bounds": {
+            "x": 9,
+            "y": 0,
+            "width": 33,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "t0EjNF",
+            "name": "状态文字",
+            "fill": "#168664",
+            "content": "运行中",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11
+          }
+        },
+        {
+          "id": "OzF54",
+          "parent": "Iz7GX",
+          "depth": 4,
+          "bounds": {
+            "x": 16,
+            "y": 69,
+            "width": 314,
+            "height": 26
+          },
+          "node": {
+            "type": "frame",
+            "id": "OzF54",
+            "name": "资源占用",
+            "width": "fill_container",
+            "gap": 18
+          }
+        },
+        {
+          "id": "ivKxC",
+          "parent": "OzF54",
+          "depth": 5,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 148,
+            "height": 26
+          },
+          "node": {
+            "type": "frame",
+            "id": "ivKxC",
+            "name": "CPU占用",
+            "width": "fill_container",
+            "layout": "vertical",
+            "gap": 6
+          }
+        },
+        {
+          "id": "LwCWD",
+          "parent": "ivKxC",
+          "depth": 6,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 148,
+            "height": 16
+          },
+          "node": {
+            "type": "frame",
+            "id": "LwCWD",
+            "name": "CPU数值行",
+            "width": "fill_container",
+            "justifyContent": "space_between",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "B5CVU",
+          "parent": "LwCWD",
+          "depth": 7,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "B5CVU",
+            "name": "CPU标签",
+            "fill": "#6F7C92",
+            "content": "CPU",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11
+          }
+        },
+        {
+          "id": "jtxtW",
+          "parent": "LwCWD",
+          "depth": 7,
+          "bounds": {
+            "x": 125,
+            "y": 0,
+            "width": 23,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "jtxtW",
+            "name": "CPU百分比",
+            "fill": "#52607A",
+            "content": "23%",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11,
+            "fontWeight": "500"
+          }
+        },
+        {
+          "id": "W4N4P",
+          "parent": "ivKxC",
+          "depth": 6,
+          "bounds": {
+            "x": 0,
+            "y": 22,
+            "width": 148,
+            "height": 4
+          },
+          "node": {
+            "type": "frame",
+            "id": "W4N4P",
+            "name": "CPU进度轨道",
+            "width": "fill_container",
+            "height": 4,
+            "fill": "#EDF0F6",
+            "cornerRadius": 2
+          }
+        },
+        {
+          "id": "L8WY5",
+          "parent": "W4N4P",
+          "depth": 7,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 31.05,
+            "height": 4
+          },
+          "node": {
+            "type": "rectangle",
+            "cornerRadius": 2,
+            "id": "L8WY5",
+            "name": "CPU进度",
+            "fill": "#6878D9",
+            "width": 31.05,
+            "height": 4
+          }
+        },
+        {
+          "id": "Jao9B",
+          "parent": "OzF54",
+          "depth": 5,
+          "bounds": {
+            "x": 166,
+            "y": 0,
+            "width": 148,
+            "height": 26
+          },
+          "node": {
+            "type": "frame",
+            "id": "Jao9B",
+            "name": "内存占用",
+            "width": "fill_container",
+            "layout": "vertical",
+            "gap": 6
+          }
+        },
+        {
+          "id": "R2rjYd",
+          "parent": "Jao9B",
+          "depth": 6,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 148,
+            "height": 16
+          },
+          "node": {
+            "type": "frame",
+            "id": "R2rjYd",
+            "name": "内存数值行",
+            "width": "fill_container",
+            "justifyContent": "space_between",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "PDBWV",
+          "parent": "R2rjYd",
+          "depth": 7,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "PDBWV",
+            "name": "内存标签",
+            "fill": "#6F7C92",
+            "content": "内存",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11
+          }
+        },
+        {
+          "id": "eG1KW",
+          "parent": "R2rjYd",
+          "depth": 7,
+          "bounds": {
+            "x": 125,
+            "y": 0,
+            "width": 23,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "eG1KW",
+            "name": "内存百分比",
+            "fill": "#52607A",
+            "content": "48%",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11,
+            "fontWeight": "500"
+          }
+        },
+        {
+          "id": "JlHoW",
+          "parent": "Jao9B",
+          "depth": 6,
+          "bounds": {
+            "x": 0,
+            "y": 22,
+            "width": 148,
+            "height": 4
+          },
+          "node": {
+            "type": "frame",
+            "id": "JlHoW",
+            "name": "内存进度轨道",
+            "width": "fill_container",
+            "height": 4,
+            "fill": "#EDF0F6",
+            "cornerRadius": 2
+          }
+        },
+        {
+          "id": "nnTWC",
+          "parent": "JlHoW",
+          "depth": 7,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 64.8,
+            "height": 4
+          },
+          "node": {
+            "type": "rectangle",
+            "cornerRadius": 2,
+            "id": "nnTWC",
+            "name": "内存进度",
+            "fill": "#49A696",
+            "width": 64.8,
+            "height": 4
+          }
+        },
+        {
+          "id": "Tz1NG",
+          "parent": "n7toO",
+          "depth": 3,
+          "bounds": {
+            "x": 0,
+            "y": 111,
+            "width": 346,
+            "height": 1
+          },
+          "node": {
+            "type": "rectangle",
+            "id": "Tz1NG",
+            "name": "资源行分隔线",
+            "fill": "#EFF1F6",
+            "width": "fill_container",
+            "height": 1
+          }
+        },
+        {
+          "id": "q01c1",
+          "parent": "n7toO",
+          "depth": 3,
+          "bounds": {
+            "x": 0,
+            "y": 112,
+            "width": 346,
+            "height": 111
+          },
+          "node": {
+            "type": "frame",
+            "id": "q01c1",
+            "name": "Home Assistant资源行",
+            "width": "fill_container",
+            "layout": "vertical",
+            "gap": 13,
+            "padding": 16
+          }
+        },
+        {
+          "id": "D4QCJ",
+          "parent": "q01c1",
+          "depth": 4,
+          "bounds": {
+            "x": 16,
+            "y": 16,
+            "width": 314,
+            "height": 40
+          },
+          "node": {
+            "type": "frame",
+            "id": "D4QCJ",
+            "name": "名称与运行状态",
+            "width": "fill_container",
+            "gap": 11,
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "ucAiA",
+          "parent": "D4QCJ",
+          "depth": 5,
+          "bounds": {
+            "x": 0,
+            "y": 1,
+            "width": 38,
+            "height": 38
+          },
+          "node": {
+            "type": "frame",
+            "id": "ucAiA",
+            "name": "虚拟机图标底",
+            "width": 38,
+            "height": 38,
+            "fill": "#EDF0FF",
+            "cornerRadius": 10,
+            "justifyContent": "center",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "qpxa1",
+          "parent": "ucAiA",
+          "depth": 6,
+          "bounds": {
+            "x": 9.5,
+            "y": 9.5,
+            "width": 19,
+            "height": 19
+          },
+          "node": {
+            "type": "icon",
+            "id": "qpxa1",
+            "name": "虚拟机图标",
+            "width": 19,
+            "height": 19,
+            "icon": "monitor",
+            "library": "lucide",
+            "fill": "#4959CA"
+          }
+        },
+        {
+          "id": "G88ajz",
+          "parent": "D4QCJ",
+          "depth": 5,
+          "bounds": {
+            "x": 49,
+            "y": 0,
+            "width": 212,
+            "height": 40
+          },
+          "node": {
+            "type": "frame",
+            "id": "G88ajz",
+            "name": "资源名称和身份",
+            "width": "fill_container",
+            "layout": "vertical",
+            "gap": 4
+          }
+        },
+        {
+          "id": "a7HfQw",
+          "parent": "G88ajz",
+          "depth": 6,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 106,
+            "height": 20
+          },
+          "node": {
+            "type": "text",
+            "id": "a7HfQw",
+            "name": "资源名称",
+            "fill": "#202D45",
+            "content": "Home Assistant",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 14,
+            "fontWeight": "600"
+          }
+        },
+        {
+          "id": "Pw9us",
+          "parent": "G88ajz",
+          "depth": 6,
+          "bounds": {
+            "x": 0,
+            "y": 24,
+            "width": 118,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "Pw9us",
+            "name": "资源标识",
+            "fill": "#6F7C92",
+            "content": "102 · pve-01 · 虚拟机",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11
+          }
+        },
+        {
+          "id": "JTB5A",
+          "parent": "D4QCJ",
+          "depth": 5,
+          "bounds": {
+            "x": 272,
+            "y": 12,
+            "width": 42,
+            "height": 16
+          },
+          "node": {
+            "type": "frame",
+            "id": "JTB5A",
+            "name": "资源状态",
+            "gap": 4,
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "BRQ4c",
+          "parent": "JTB5A",
+          "depth": 6,
+          "bounds": {
+            "x": 0,
+            "y": 5.5,
+            "width": 5,
+            "height": 5
+          },
+          "node": {
+            "type": "ellipse",
+            "id": "BRQ4c",
+            "name": "状态圆点",
+            "fill": "#15936A",
+            "width": 5,
+            "height": 5
+          }
+        },
+        {
+          "id": "seFpf",
+          "parent": "JTB5A",
+          "depth": 6,
+          "bounds": {
+            "x": 9,
+            "y": 0,
+            "width": 33,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "seFpf",
+            "name": "状态文字",
+            "fill": "#168664",
+            "content": "运行中",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11
+          }
+        },
+        {
+          "id": "d9HWE",
+          "parent": "q01c1",
+          "depth": 4,
+          "bounds": {
+            "x": 16,
+            "y": 69,
+            "width": 314,
+            "height": 26
+          },
+          "node": {
+            "type": "frame",
+            "id": "d9HWE",
+            "name": "资源占用",
+            "width": "fill_container",
+            "gap": 18
+          }
+        },
+        {
+          "id": "rbtOl",
+          "parent": "d9HWE",
+          "depth": 5,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 148,
+            "height": 26
+          },
+          "node": {
+            "type": "frame",
+            "id": "rbtOl",
+            "name": "CPU占用",
+            "width": "fill_container",
+            "layout": "vertical",
+            "gap": 6
+          }
+        },
+        {
+          "id": "a6GJr",
+          "parent": "rbtOl",
+          "depth": 6,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 148,
+            "height": 16
+          },
+          "node": {
+            "type": "frame",
+            "id": "a6GJr",
+            "name": "CPU数值行",
+            "width": "fill_container",
+            "justifyContent": "space_between",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "V8oDg",
+          "parent": "a6GJr",
+          "depth": 7,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "V8oDg",
+            "name": "CPU标签",
+            "fill": "#6F7C92",
+            "content": "CPU",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11
+          }
+        },
+        {
+          "id": "Z8kgnO",
+          "parent": "a6GJr",
+          "depth": 7,
+          "bounds": {
+            "x": 131,
+            "y": 0,
+            "width": 17,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "Z8kgnO",
+            "name": "CPU百分比",
+            "fill": "#52607A",
+            "content": "8%",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11,
+            "fontWeight": "500"
+          }
+        },
+        {
+          "id": "K08Ds",
+          "parent": "rbtOl",
+          "depth": 6,
+          "bounds": {
+            "x": 0,
+            "y": 22,
+            "width": 148,
+            "height": 4
+          },
+          "node": {
+            "type": "frame",
+            "id": "K08Ds",
+            "name": "CPU进度轨道",
+            "width": "fill_container",
+            "height": 4,
+            "fill": "#EDF0F6",
+            "cornerRadius": 2
+          }
+        },
+        {
+          "id": "i9X7R7",
+          "parent": "K08Ds",
+          "depth": 7,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 10.8,
+            "height": 4
+          },
+          "node": {
+            "type": "rectangle",
+            "cornerRadius": 2,
+            "id": "i9X7R7",
+            "name": "CPU进度",
+            "fill": "#6878D9",
+            "width": 10.8,
+            "height": 4
+          }
+        },
+        {
+          "id": "CzrWs",
+          "parent": "d9HWE",
+          "depth": 5,
+          "bounds": {
+            "x": 166,
+            "y": 0,
+            "width": 148,
+            "height": 26
+          },
+          "node": {
+            "type": "frame",
+            "id": "CzrWs",
+            "name": "内存占用",
+            "width": "fill_container",
+            "layout": "vertical",
+            "gap": 6
+          }
+        },
+        {
+          "id": "YHJiv",
+          "parent": "CzrWs",
+          "depth": 6,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 148,
+            "height": 16
+          },
+          "node": {
+            "type": "frame",
+            "id": "YHJiv",
+            "name": "内存数值行",
+            "width": "fill_container",
+            "justifyContent": "space_between",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "jtxKu",
+          "parent": "YHJiv",
+          "depth": 7,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "jtxKu",
+            "name": "内存标签",
+            "fill": "#6F7C92",
+            "content": "内存",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11
+          }
+        },
+        {
+          "id": "a2rSU",
+          "parent": "YHJiv",
+          "depth": 7,
+          "bounds": {
+            "x": 125,
+            "y": 0,
+            "width": 23,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "a2rSU",
+            "name": "内存百分比",
+            "fill": "#52607A",
+            "content": "32%",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11,
+            "fontWeight": "500"
+          }
+        },
+        {
+          "id": "Y6qlFN",
+          "parent": "CzrWs",
+          "depth": 6,
+          "bounds": {
+            "x": 0,
+            "y": 22,
+            "width": 148,
+            "height": 4
+          },
+          "node": {
+            "type": "frame",
+            "id": "Y6qlFN",
+            "name": "内存进度轨道",
+            "width": "fill_container",
+            "height": 4,
+            "fill": "#EDF0F6",
+            "cornerRadius": 2
+          }
+        },
+        {
+          "id": "fuzJ0",
+          "parent": "Y6qlFN",
+          "depth": 7,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 43.2,
+            "height": 4
+          },
+          "node": {
+            "type": "rectangle",
+            "cornerRadius": 2,
+            "id": "fuzJ0",
+            "name": "内存进度",
+            "fill": "#49A696",
+            "width": 43.2,
+            "height": 4
+          }
+        },
+        {
+          "id": "nYOzj",
+          "parent": "n7toO",
+          "depth": 3,
+          "bounds": {
+            "x": 0,
+            "y": 223,
+            "width": 346,
+            "height": 1
+          },
+          "node": {
+            "type": "rectangle",
+            "id": "nYOzj",
+            "name": "资源行分隔线",
+            "fill": "#EFF1F6",
+            "width": "fill_container",
+            "height": 1
+          }
+        },
+        {
+          "id": "PhwBb",
+          "parent": "n7toO",
+          "depth": 3,
+          "bounds": {
+            "x": 0,
+            "y": 224,
+            "width": 346,
+            "height": 111
+          },
+          "node": {
+            "type": "frame",
+            "id": "PhwBb",
+            "name": "Docker Services资源行",
+            "width": "fill_container",
+            "layout": "vertical",
+            "gap": 13,
+            "padding": 16
+          }
+        },
+        {
+          "id": "Jl2LM",
+          "parent": "PhwBb",
+          "depth": 4,
+          "bounds": {
+            "x": 16,
+            "y": 16,
+            "width": 314,
+            "height": 40
+          },
+          "node": {
+            "type": "frame",
+            "id": "Jl2LM",
+            "name": "名称与运行状态",
+            "width": "fill_container",
+            "gap": 11,
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "Rgwzq",
+          "parent": "Jl2LM",
+          "depth": 5,
+          "bounds": {
+            "x": 0,
+            "y": 1,
+            "width": 38,
+            "height": 38
+          },
+          "node": {
+            "type": "frame",
+            "id": "Rgwzq",
+            "name": "容器图标底",
+            "width": 38,
+            "height": 38,
+            "fill": "#E8F5F2",
+            "cornerRadius": 10,
+            "justifyContent": "center",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "LLUPZ",
+          "parent": "Rgwzq",
+          "depth": 6,
+          "bounds": {
+            "x": 9.5,
+            "y": 9.5,
+            "width": 19,
+            "height": 19
+          },
+          "node": {
+            "type": "icon",
+            "id": "LLUPZ",
+            "name": "容器图标",
+            "width": 19,
+            "height": 19,
+            "icon": "box",
+            "library": "lucide",
+            "fill": "#268673"
+          }
+        },
+        {
+          "id": "ZCac3",
+          "parent": "Jl2LM",
+          "depth": 5,
+          "bounds": {
+            "x": 49,
+            "y": 0,
+            "width": 212,
+            "height": 40
+          },
+          "node": {
+            "type": "frame",
+            "id": "ZCac3",
+            "name": "资源名称和身份",
+            "width": "fill_container",
+            "layout": "vertical",
+            "gap": 4
+          }
+        },
+        {
+          "id": "HG80c",
+          "parent": "ZCac3",
+          "depth": 6,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 108,
+            "height": 20
+          },
+          "node": {
+            "type": "text",
+            "id": "HG80c",
+            "name": "资源名称",
+            "fill": "#202D45",
+            "content": "Docker Services",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 14,
+            "fontWeight": "600"
+          }
+        },
+        {
+          "id": "fmxmP",
+          "parent": "ZCac3",
+          "depth": 6,
+          "bounds": {
+            "x": 0,
+            "y": 24,
+            "width": 107,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "fmxmP",
+            "name": "资源标识",
+            "fill": "#6F7C92",
+            "content": "201 · pve-02 · 容器",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11
+          }
+        },
+        {
+          "id": "fAaye",
+          "parent": "Jl2LM",
+          "depth": 5,
+          "bounds": {
+            "x": 272,
+            "y": 12,
+            "width": 42,
+            "height": 16
+          },
+          "node": {
+            "type": "frame",
+            "id": "fAaye",
+            "name": "资源状态",
+            "gap": 4,
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "PfRyh",
+          "parent": "fAaye",
+          "depth": 6,
+          "bounds": {
+            "x": 0,
+            "y": 5.5,
+            "width": 5,
+            "height": 5
+          },
+          "node": {
+            "type": "ellipse",
+            "id": "PfRyh",
+            "name": "状态圆点",
+            "fill": "#9AA3B4",
+            "width": 5,
+            "height": 5
+          }
+        },
+        {
+          "id": "qDJAq",
+          "parent": "fAaye",
+          "depth": 6,
+          "bounds": {
+            "x": 9,
+            "y": 0,
+            "width": 33,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "qDJAq",
+            "name": "状态文字",
+            "fill": "#6F7C92",
+            "content": "已关机",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11
+          }
+        },
+        {
+          "id": "LnWgh",
+          "parent": "PhwBb",
+          "depth": 4,
+          "bounds": {
+            "x": 16,
+            "y": 69,
+            "width": 314,
+            "height": 26
+          },
+          "node": {
+            "type": "frame",
+            "id": "LnWgh",
+            "name": "资源占用",
+            "width": "fill_container",
+            "gap": 18
+          }
+        },
+        {
+          "id": "Y3W7H",
+          "parent": "LnWgh",
+          "depth": 5,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 148,
+            "height": 26
+          },
+          "node": {
+            "type": "frame",
+            "id": "Y3W7H",
+            "name": "CPU占用",
+            "width": "fill_container",
+            "layout": "vertical",
+            "gap": 6
+          }
+        },
+        {
+          "id": "ezuqG",
+          "parent": "Y3W7H",
+          "depth": 6,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 148,
+            "height": 16
+          },
+          "node": {
+            "type": "frame",
+            "id": "ezuqG",
+            "name": "CPU数值行",
+            "width": "fill_container",
+            "justifyContent": "space_between",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "l5DIwT",
+          "parent": "ezuqG",
+          "depth": 7,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "l5DIwT",
+            "name": "CPU标签",
+            "fill": "#6F7C92",
+            "content": "CPU",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11
+          }
+        },
+        {
+          "id": "Ngo2C",
+          "parent": "ezuqG",
+          "depth": 7,
+          "bounds": {
+            "x": 138,
+            "y": 0,
+            "width": 10,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "Ngo2C",
+            "name": "CPU百分比",
+            "fill": "#52607A",
+            "content": "—",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11,
+            "fontWeight": "500"
+          }
+        },
+        {
+          "id": "smYQw",
+          "parent": "Y3W7H",
+          "depth": 6,
+          "bounds": {
+            "x": 0,
+            "y": 22,
+            "width": 148,
+            "height": 4
+          },
+          "node": {
+            "type": "frame",
+            "id": "smYQw",
+            "name": "CPU进度轨道",
+            "width": "fill_container",
+            "height": 4,
+            "fill": "#EDF0F6",
+            "cornerRadius": 2
+          }
+        },
+        {
+          "id": "hKiqt",
+          "parent": "LnWgh",
+          "depth": 5,
+          "bounds": {
+            "x": 166,
+            "y": 0,
+            "width": 148,
+            "height": 26
+          },
+          "node": {
+            "type": "frame",
+            "id": "hKiqt",
+            "name": "内存占用",
+            "width": "fill_container",
+            "layout": "vertical",
+            "gap": 6
+          }
+        },
+        {
+          "id": "O9geG",
+          "parent": "hKiqt",
+          "depth": 6,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 148,
+            "height": 16
+          },
+          "node": {
+            "type": "frame",
+            "id": "O9geG",
+            "name": "内存数值行",
+            "width": "fill_container",
+            "justifyContent": "space_between",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "OHAW2",
+          "parent": "O9geG",
+          "depth": 7,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "OHAW2",
+            "name": "内存标签",
+            "fill": "#6F7C92",
+            "content": "内存",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11
+          }
+        },
+        {
+          "id": "m1ICkb",
+          "parent": "O9geG",
+          "depth": 7,
+          "bounds": {
+            "x": 138,
+            "y": 0,
+            "width": 10,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "m1ICkb",
+            "name": "内存百分比",
+            "fill": "#52607A",
+            "content": "—",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11,
+            "fontWeight": "500"
+          }
+        },
+        {
+          "id": "nViSG",
+          "parent": "hKiqt",
+          "depth": 6,
+          "bounds": {
+            "x": 0,
+            "y": 22,
+            "width": 148,
+            "height": 4
+          },
+          "node": {
+            "type": "frame",
+            "id": "nViSG",
+            "name": "内存进度轨道",
+            "width": "fill_container",
+            "height": 4,
+            "fill": "#EDF0F6",
+            "cornerRadius": 2
+          }
+        },
+        {
+          "id": "T5a73",
+          "parent": "dTq9k",
+          "depth": 2,
+          "bounds": {
+            "x": 22,
+            "y": 733,
+            "width": 346,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "T5a73",
+            "name": "列表提示",
+            "fill": "#7C899F",
+            "textGrowth": "fixed-width",
+            "width": "fill_container",
+            "content": "显示 3 / 12 台资源",
+            "textAlign": "center",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11
+          }
+        },
+        {
+          "id": "Zcd38",
+          "parent": "C27vcg",
+          "depth": 1,
+          "bounds": {
+            "x": 0,
+            "y": 825,
+            "width": 390,
+            "height": 66
+          },
+          "node": {
+            "type": "frame",
+            "id": "Zcd38",
+            "name": "底部导航区",
+            "width": "fill_container",
+            "padding": [
+              0,
+              16
+            ],
+            "justifyContent": "center"
+          }
+        },
+        {
+          "id": "GGxCF",
+          "parent": "Zcd38",
+          "depth": 2,
+          "bounds": {
+            "x": 16,
+            "y": 0,
+            "width": 358,
+            "height": 66
+          },
+          "node": {
+            "type": "frame",
+            "id": "GGxCF",
+            "name": "主导航",
+            "width": "fill_container",
+            "height": 66,
+            "fill": "#FFFFFF",
+            "cornerRadius": 33,
+            "stroke": "#E6EAF1",
+            "strokeWidth": 1,
+            "gap": 5,
+            "padding": 7
+          }
+        },
+        {
+          "id": "xPk9q",
+          "parent": "GGxCF",
+          "depth": 3,
+          "bounds": {
+            "x": 7,
+            "y": 7,
+            "width": 111.33333333333333,
+            "height": 52
+          },
+          "node": {
+            "type": "frame",
+            "id": "xPk9q",
+            "name": "资源导航",
+            "width": "fill_container",
+            "height": "fill_container",
+            "fill": "#E9EDFF",
+            "cornerRadius": 26,
+            "layout": "vertical",
+            "gap": 3,
+            "justifyContent": "center",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "FaCKM",
+          "parent": "xPk9q",
+          "depth": 4,
+          "bounds": {
+            "x": 45.666666666666664,
+            "y": 6.5,
+            "width": 19.999999999999993,
+            "height": 20
+          },
+          "node": {
+            "type": "icon",
+            "id": "FaCKM",
+            "name": "资源导航图标",
+            "width": 20,
+            "height": 20,
+            "icon": "layers",
+            "library": "lucide",
+            "fill": "#3448C8"
+          }
+        },
+        {
+          "id": "f0BHL",
+          "parent": "xPk9q",
+          "depth": 4,
+          "bounds": {
+            "x": 44.666666666666664,
+            "y": 29.5,
+            "width": 21.999999999999993,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "f0BHL",
+            "name": "资源导航文字",
+            "fill": "#3448C8",
+            "content": "资源",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11,
+            "fontWeight": "600"
+          }
+        },
+        {
+          "id": "hT0Ru",
+          "parent": "GGxCF",
+          "depth": 3,
+          "bounds": {
+            "x": 123.33333333333333,
+            "y": 7,
+            "width": 111.33333333333333,
+            "height": 52
+          },
+          "node": {
+            "type": "frame",
+            "id": "hT0Ru",
+            "name": "节点导航",
+            "width": "fill_container",
+            "height": "fill_container",
+            "fill": "#FFFFFF",
+            "cornerRadius": 26,
+            "layout": "vertical",
+            "gap": 3,
+            "justifyContent": "center",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "P99gAH",
+          "parent": "hT0Ru",
+          "depth": 4,
+          "bounds": {
+            "x": 45.666666666666664,
+            "y": 6.5,
+            "width": 19.999999999999993,
+            "height": 20
+          },
+          "node": {
+            "type": "icon",
+            "id": "P99gAH",
+            "name": "节点导航图标",
+            "width": 20,
+            "height": 20,
+            "icon": "server",
+            "library": "lucide",
+            "fill": "#8A94A8"
+          }
+        },
+        {
+          "id": "X97M7R",
+          "parent": "hT0Ru",
+          "depth": 4,
+          "bounds": {
+            "x": 44.666666666666664,
+            "y": 29.5,
+            "width": 21.999999999999993,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "X97M7R",
+            "name": "节点导航文字",
+            "fill": "#6F7C92",
+            "content": "节点",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11
+          }
+        },
+        {
+          "id": "Fado2",
+          "parent": "GGxCF",
+          "depth": 3,
+          "bounds": {
+            "x": 239.66666666666666,
+            "y": 7,
+            "width": 111.33333333333334,
+            "height": 52
+          },
+          "node": {
+            "type": "frame",
+            "id": "Fado2",
+            "name": "连接导航",
+            "width": "fill_container",
+            "height": "fill_container",
+            "fill": "#FFFFFF",
+            "cornerRadius": 26,
+            "layout": "vertical",
+            "gap": 3,
+            "justifyContent": "center",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "OMJq0",
+          "parent": "Fado2",
+          "depth": 4,
+          "bounds": {
+            "x": 45.66666666666667,
+            "y": 6.5,
+            "width": 20,
+            "height": 20
+          },
+          "node": {
+            "type": "icon",
+            "id": "OMJq0",
+            "name": "连接导航图标",
+            "width": 20,
+            "height": 20,
+            "icon": "link",
+            "library": "lucide",
+            "fill": "#8A94A8"
+          }
+        },
+        {
+          "id": "KRGKo",
+          "parent": "Fado2",
+          "depth": 4,
+          "bounds": {
+            "x": 44.666666666666664,
+            "y": 29.5,
+            "width": 21.999999999999993,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "KRGKo",
+            "name": "连接导航文字",
+            "fill": "#6F7C92",
+            "content": "连接",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11
+          }
+        }
+      ]
+    },
+    {
+      "id": "cLa4r",
+      "nodes": [
+        {
+          "id": "cLa4r",
+          "depth": 0,
+          "bounds": {
+            "x": 0,
+            "y": 33,
+            "width": 390,
+            "height": 843
+          },
+          "node": {
+            "type": "frame",
+            "id": "cLa4r",
+            "name": "PVE 管家 · 02 虚拟机详情",
+            "clip": true,
+            "width": 390,
+            "fill": "#F5F7FB",
+            "cornerRadius": 20,
+            "stroke": "#DDE3EE",
+            "strokeWidth": 1,
+            "layout": "vertical",
+            "padding": [
+              0,
+              0,
+              14,
+              0
+            ]
+          }
+        },
+        {
+          "id": "wr9kP",
+          "parent": "cLa4r",
+          "depth": 1,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 52
+          },
+          "node": {
+            "type": "frame",
+            "id": "wr9kP",
+            "name": "系统状态栏",
+            "width": "fill_container",
+            "height": 52,
+            "padding": [
+              18,
+              24
+            ],
+            "justifyContent": "space_between",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "i8qa5V",
+          "parent": "wr9kP",
+          "depth": 2,
+          "bounds": {
+            "x": 24,
+            "y": 17.5,
+            "width": 29,
+            "height": 17
+          },
+          "node": {
+            "type": "text",
+            "id": "i8qa5V",
+            "name": "时间",
+            "fill": "#172239",
+            "content": "9:41",
+            "fontFamily": "Inter",
+            "fontSize": 14,
+            "fontWeight": "600"
+          }
+        },
+        {
+          "id": "jg3mc",
+          "parent": "wr9kP",
+          "depth": 2,
+          "bounds": {
+            "x": 306,
+            "y": 18,
+            "width": 60,
+            "height": 16
+          },
+          "node": {
+            "type": "frame",
+            "id": "jg3mc",
+            "name": "信号与电量",
+            "gap": 6,
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "YA1eE",
+          "parent": "jg3mc",
+          "depth": 3,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 16,
+            "height": 16
+          },
+          "node": {
+            "type": "icon",
+            "id": "YA1eE",
+            "name": "signal",
+            "width": 16,
+            "height": 16,
+            "icon": "signal",
+            "library": "lucide",
+            "fill": "#172239"
+          }
+        },
+        {
+          "id": "S9GAB",
+          "parent": "jg3mc",
+          "depth": 3,
+          "bounds": {
+            "x": 22,
+            "y": 0,
+            "width": 16,
+            "height": 16
+          },
+          "node": {
+            "type": "icon",
+            "id": "S9GAB",
+            "name": "wifi",
+            "width": 16,
+            "height": 16,
+            "icon": "wifi",
+            "library": "lucide",
+            "fill": "#172239"
+          }
+        },
+        {
+          "id": "Q10mZS",
+          "parent": "jg3mc",
+          "depth": 3,
+          "bounds": {
+            "x": 44,
+            "y": 0,
+            "width": 16,
+            "height": 16
+          },
+          "node": {
+            "type": "icon",
+            "id": "Q10mZS",
+            "name": "battery-full",
+            "width": 16,
+            "height": 16,
+            "icon": "battery-full",
+            "library": "lucide",
+            "fill": "#172239"
+          }
+        },
+        {
+          "id": "pe2Y1",
+          "parent": "cLa4r",
+          "depth": 1,
+          "bounds": {
+            "x": 0,
+            "y": 52,
+            "width": 390,
+            "height": 711
+          },
+          "node": {
+            "type": "frame",
+            "id": "pe2Y1",
+            "name": "虚拟机详情工作区",
+            "width": "fill_container",
+            "layout": "vertical",
+            "gap": 22,
+            "padding": [
+              12,
+              22,
+              24,
+              22
+            ]
+          }
+        },
+        {
+          "id": "CvdA5",
+          "parent": "pe2Y1",
+          "depth": 2,
+          "bounds": {
+            "x": 22,
+            "y": 12,
+            "width": 346,
+            "height": 44
+          },
+          "node": {
+            "type": "frame",
+            "id": "CvdA5",
+            "name": "详情页面标题",
+            "width": "fill_container",
+            "gap": 12,
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "INbJE",
+          "parent": "CvdA5",
+          "depth": 3,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 44
+          },
+          "node": {
+            "type": "frame",
+            "id": "INbJE",
+            "name": "返回资源列表",
+            "width": 32,
+            "height": 44,
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "FKpp9",
+          "parent": "INbJE",
+          "depth": 4,
+          "bounds": {
+            "x": 0,
+            "y": 11.5,
+            "width": 21,
+            "height": 21
+          },
+          "node": {
+            "type": "icon",
+            "id": "FKpp9",
+            "name": "返回图标",
+            "width": 21,
+            "height": 21,
+            "icon": "arrow-left",
+            "library": "lucide",
+            "fill": "#34415A"
+          }
+        },
+        {
+          "id": "B2C5Km",
+          "parent": "CvdA5",
+          "depth": 3,
+          "bounds": {
+            "x": 44,
+            "y": 4,
+            "width": 101,
+            "height": 36
+          },
+          "node": {
+            "type": "text",
+            "id": "B2C5Km",
+            "name": "详情标题",
+            "fill": "#172239",
+            "content": "资源详情",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 25,
+            "fontWeight": "700"
+          }
+        },
+        {
+          "id": "A0bZcx",
+          "parent": "pe2Y1",
+          "depth": 2,
+          "bounds": {
+            "x": 22,
+            "y": 78,
+            "width": 346,
+            "height": 92
+          },
+          "node": {
+            "type": "frame",
+            "id": "A0bZcx",
+            "name": "资源身份",
+            "width": "fill_container",
+            "layout": "vertical",
+            "gap": 14
+          }
+        },
+        {
+          "id": "J17GS2",
+          "parent": "A0bZcx",
+          "depth": 3,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 346,
+            "height": 52
+          },
+          "node": {
+            "type": "frame",
+            "id": "J17GS2",
+            "name": "名称与类型",
+            "width": "fill_container",
+            "gap": 13,
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "a46Mte",
+          "parent": "J17GS2",
+          "depth": 4,
+          "bounds": {
+            "x": 0,
+            "y": 1,
+            "width": 50,
+            "height": 50
+          },
+          "node": {
+            "type": "frame",
+            "id": "a46Mte",
+            "name": "虚拟机标识",
+            "width": 50,
+            "height": 50,
+            "fill": "#E9EDFF",
+            "cornerRadius": 14,
+            "justifyContent": "center",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "oUrHm",
+          "parent": "a46Mte",
+          "depth": 5,
+          "bounds": {
+            "x": 13,
+            "y": 13,
+            "width": 24,
+            "height": 24
+          },
+          "node": {
+            "type": "icon",
+            "id": "oUrHm",
+            "name": "虚拟机图标",
+            "width": 24,
+            "height": 24,
+            "icon": "monitor",
+            "library": "lucide",
+            "fill": "#3448C8"
+          }
+        },
+        {
+          "id": "upNHa",
+          "parent": "J17GS2",
+          "depth": 4,
+          "bounds": {
+            "x": 63,
+            "y": 0,
+            "width": 149,
+            "height": 52
+          },
+          "node": {
+            "type": "frame",
+            "id": "upNHa",
+            "name": "资源名",
+            "layout": "vertical",
+            "gap": 5
+          }
+        },
+        {
+          "id": "NhTzH",
+          "parent": "upNHa",
+          "depth": 5,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 149,
+            "height": 30
+          },
+          "node": {
+            "type": "text",
+            "id": "NhTzH",
+            "name": "资源全称",
+            "fill": "#172239",
+            "content": "Ubuntu Server",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 21,
+            "fontWeight": "600"
+          }
+        },
+        {
+          "id": "FSa4W",
+          "parent": "upNHa",
+          "depth": 5,
+          "bounds": {
+            "x": 0,
+            "y": 35,
+            "width": 114,
+            "height": 17
+          },
+          "node": {
+            "type": "text",
+            "id": "FSa4W",
+            "name": "资源位置",
+            "fill": "#68758C",
+            "content": "虚拟机 101 · pve-01",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 12
+          }
+        },
+        {
+          "id": "l0t7Fj",
+          "parent": "A0bZcx",
+          "depth": 3,
+          "bounds": {
+            "x": 0,
+            "y": 66,
+            "width": 346,
+            "height": 26
+          },
+          "node": {
+            "type": "frame",
+            "id": "l0t7Fj",
+            "name": "资源状态和连接",
+            "width": "fill_container",
+            "gap": 8,
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "lqIPM",
+          "parent": "l0t7Fj",
+          "depth": 4,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 63,
+            "height": 26
+          },
+          "node": {
+            "type": "frame",
+            "id": "lqIPM",
+            "name": "运行状态",
+            "fill": "#E4F5ED",
+            "cornerRadius": 7,
+            "gap": 5,
+            "padding": [
+              5,
+              10
+            ],
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "mDMLO",
+          "parent": "lqIPM",
+          "depth": 5,
+          "bounds": {
+            "x": 10,
+            "y": 10.5,
+            "width": 5,
+            "height": 5
+          },
+          "node": {
+            "type": "ellipse",
+            "id": "mDMLO",
+            "name": "运行圆点",
+            "fill": "#15936A",
+            "width": 5,
+            "height": 5
+          }
+        },
+        {
+          "id": "ZUGsd",
+          "parent": "lqIPM",
+          "depth": 5,
+          "bounds": {
+            "x": 20,
+            "y": 5,
+            "width": 33,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "ZUGsd",
+            "name": "状态文字",
+            "fill": "#168664",
+            "content": "运行中",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11,
+            "fontWeight": "500"
+          }
+        },
+        {
+          "id": "KdOGL",
+          "parent": "l0t7Fj",
+          "depth": 4,
+          "bounds": {
+            "x": 71,
+            "y": 4.5,
+            "width": 61,
+            "height": 17
+          },
+          "node": {
+            "type": "text",
+            "id": "KdOGL",
+            "name": "所属连接",
+            "fill": "#68758C",
+            "content": "家庭实验室",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 12
+          }
+        },
+        {
+          "id": "NMbx8",
+          "parent": "pe2Y1",
+          "depth": 2,
+          "bounds": {
+            "x": 22,
+            "y": 192,
+            "width": 346,
+            "height": 127
+          },
+          "node": {
+            "type": "frame",
+            "id": "NMbx8",
+            "name": "实时资源使用",
+            "width": "fill_container",
+            "gap": 12
+          }
+        },
+        {
+          "id": "eyug4",
+          "parent": "NMbx8",
+          "depth": 3,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 167,
+            "height": 127
+          },
+          "node": {
+            "type": "frame",
+            "id": "eyug4",
+            "name": "CPU监控",
+            "width": "fill_container",
+            "fill": "#FFFFFF",
+            "cornerRadius": 14,
+            "stroke": "#E5E9F1",
+            "strokeWidth": 1,
+            "layout": "vertical",
+            "gap": 9,
+            "padding": 16
+          }
+        },
+        {
+          "id": "xQbp6",
+          "parent": "eyug4",
+          "depth": 4,
+          "bounds": {
+            "x": 16,
+            "y": 16,
+            "width": 24,
+            "height": 17
+          },
+          "node": {
+            "type": "text",
+            "id": "xQbp6",
+            "name": "CPU监控标签",
+            "fill": "#68758C",
+            "content": "CPU",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 12
+          }
+        },
+        {
+          "id": "e9QnXD",
+          "parent": "eyug4",
+          "depth": 4,
+          "bounds": {
+            "x": 16,
+            "y": 42,
+            "width": 81,
+            "height": 30
+          },
+          "node": {
+            "type": "text",
+            "id": "e9QnXD",
+            "name": "CPU监控数值",
+            "fill": "#263450",
+            "content": "23.4%",
+            "fontFamily": "Inter",
+            "fontSize": 25,
+            "fontWeight": "600"
+          }
+        },
+        {
+          "id": "wHqlG",
+          "parent": "eyug4",
+          "depth": 4,
+          "bounds": {
+            "x": 16,
+            "y": 81,
+            "width": 55,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "wHqlG",
+            "name": "CPU容量说明",
+            "fill": "#6F7C92",
+            "content": "实时使用率",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11
+          }
+        },
+        {
+          "id": "RJhRb",
+          "parent": "eyug4",
+          "depth": 4,
+          "bounds": {
+            "x": 16,
+            "y": 106,
+            "width": 135,
+            "height": 5
+          },
+          "node": {
+            "type": "frame",
+            "id": "RJhRb",
+            "name": "CPU使用轨道",
+            "width": "fill_container",
+            "height": 5,
+            "fill": "#EDF0F6",
+            "cornerRadius": 3
+          }
+        },
+        {
+          "id": "nFWj2",
+          "parent": "RJhRb",
+          "depth": 5,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 29.717999999999996,
+            "height": 5
+          },
+          "node": {
+            "type": "rectangle",
+            "cornerRadius": 3,
+            "id": "nFWj2",
+            "name": "CPU使用条",
+            "fill": "#6778D5",
+            "width": 29.717999999999996,
+            "height": 5
+          }
+        },
+        {
+          "id": "zDcd4",
+          "parent": "NMbx8",
+          "depth": 3,
+          "bounds": {
+            "x": 179,
+            "y": 0,
+            "width": 167,
+            "height": 127
+          },
+          "node": {
+            "type": "frame",
+            "id": "zDcd4",
+            "name": "内存监控",
+            "width": "fill_container",
+            "fill": "#FFFFFF",
+            "cornerRadius": 14,
+            "stroke": "#E5E9F1",
+            "strokeWidth": 1,
+            "layout": "vertical",
+            "gap": 9,
+            "padding": 16
+          }
+        },
+        {
+          "id": "ilkQP",
+          "parent": "zDcd4",
+          "depth": 4,
+          "bounds": {
+            "x": 16,
+            "y": 16,
+            "width": 25,
+            "height": 17
+          },
+          "node": {
+            "type": "text",
+            "id": "ilkQP",
+            "name": "内存监控标签",
+            "fill": "#68758C",
+            "content": "内存",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 12
+          }
+        },
+        {
+          "id": "GA8kY",
+          "parent": "zDcd4",
+          "depth": 4,
+          "bounds": {
+            "x": 16,
+            "y": 42,
+            "width": 87,
+            "height": 30
+          },
+          "node": {
+            "type": "text",
+            "id": "GA8kY",
+            "name": "内存监控数值",
+            "fill": "#263450",
+            "content": "3.8 GiB",
+            "fontFamily": "Inter",
+            "fontSize": 25,
+            "fontWeight": "600"
+          }
+        },
+        {
+          "id": "txRJY",
+          "parent": "zDcd4",
+          "depth": 4,
+          "bounds": {
+            "x": 16,
+            "y": 81,
+            "width": 40,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "txRJY",
+            "name": "内存容量说明",
+            "fill": "#6F7C92",
+            "content": "共 8 GiB",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11
+          }
+        },
+        {
+          "id": "cXF4m",
+          "parent": "zDcd4",
+          "depth": 4,
+          "bounds": {
+            "x": 16,
+            "y": 106,
+            "width": 135,
+            "height": 5
+          },
+          "node": {
+            "type": "frame",
+            "id": "cXF4m",
+            "name": "内存使用轨道",
+            "width": "fill_container",
+            "height": 5,
+            "fill": "#EDF0F6",
+            "cornerRadius": 3
+          }
+        },
+        {
+          "id": "r7RSA7",
+          "parent": "cXF4m",
+          "depth": 5,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 60.96,
+            "height": 5
+          },
+          "node": {
+            "type": "rectangle",
+            "cornerRadius": 3,
+            "id": "r7RSA7",
+            "name": "内存使用条",
+            "fill": "#46A392",
+            "width": 60.96,
+            "height": 5
+          }
+        },
+        {
+          "id": "q39Nk",
+          "parent": "pe2Y1",
+          "depth": 2,
+          "bounds": {
+            "x": 22,
+            "y": 341,
+            "width": 346,
+            "height": 184
+          },
+          "node": {
+            "type": "frame",
+            "id": "q39Nk",
+            "name": "资源基本信息",
+            "width": "fill_container",
+            "fill": "#FFFFFF",
+            "cornerRadius": 14,
+            "stroke": "#E5E9F1",
+            "strokeWidth": 1,
+            "layout": "vertical",
+            "gap": 15,
+            "padding": 18
+          }
+        },
+        {
+          "id": "FsZa4",
+          "parent": "q39Nk",
+          "depth": 3,
+          "bounds": {
+            "x": 18,
+            "y": 18,
+            "width": 56,
+            "height": 20
+          },
+          "node": {
+            "type": "text",
+            "id": "FsZa4",
+            "name": "基本信息标题",
+            "fill": "#263450",
+            "content": "基本信息",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 14,
+            "fontWeight": "600"
+          }
+        },
+        {
+          "id": "sJSKX",
+          "parent": "q39Nk",
+          "depth": 3,
+          "bounds": {
+            "x": 18,
+            "y": 53,
+            "width": 310,
+            "height": 17
+          },
+          "node": {
+            "type": "frame",
+            "id": "sJSKX",
+            "name": "节点信息",
+            "width": "fill_container",
+            "justifyContent": "space_between",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "lTO2y",
+          "parent": "sJSKX",
+          "depth": 4,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 25,
+            "height": 17
+          },
+          "node": {
+            "type": "text",
+            "id": "lTO2y",
+            "name": "节点标签",
+            "fill": "#6F7C92",
+            "content": "节点",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 12
+          }
+        },
+        {
+          "id": "G1a4JE",
+          "parent": "sJSKX",
+          "depth": 4,
+          "bounds": {
+            "x": 271,
+            "y": 0,
+            "width": 39,
+            "height": 17
+          },
+          "node": {
+            "type": "text",
+            "id": "G1a4JE",
+            "name": "节点值",
+            "fill": "#34415A",
+            "content": "pve-01",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 12,
+            "fontWeight": "500"
+          }
+        },
+        {
+          "id": "L63lph",
+          "parent": "q39Nk",
+          "depth": 3,
+          "bounds": {
+            "x": 18,
+            "y": 85,
+            "width": 310,
+            "height": 17
+          },
+          "node": {
+            "type": "frame",
+            "id": "L63lph",
+            "name": "资源 ID信息",
+            "width": "fill_container",
+            "justifyContent": "space_between",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "TCXDB",
+          "parent": "L63lph",
+          "depth": 4,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 39,
+            "height": 17
+          },
+          "node": {
+            "type": "text",
+            "id": "TCXDB",
+            "name": "资源 ID标签",
+            "fill": "#6F7C92",
+            "content": "资源 ID",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 12
+          }
+        },
+        {
+          "id": "OVK5I",
+          "parent": "L63lph",
+          "depth": 4,
+          "bounds": {
+            "x": 289,
+            "y": 0,
+            "width": 21,
+            "height": 17
+          },
+          "node": {
+            "type": "text",
+            "id": "OVK5I",
+            "name": "资源 ID值",
+            "fill": "#34415A",
+            "content": "101",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 12,
+            "fontWeight": "500"
+          }
+        },
+        {
+          "id": "HHuYT",
+          "parent": "q39Nk",
+          "depth": 3,
+          "bounds": {
+            "x": 18,
+            "y": 117,
+            "width": 310,
+            "height": 17
+          },
+          "node": {
+            "type": "frame",
+            "id": "HHuYT",
+            "name": "类型信息",
+            "width": "fill_container",
+            "justifyContent": "space_between",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "wlNIk",
+          "parent": "HHuYT",
+          "depth": 4,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 25,
+            "height": 17
+          },
+          "node": {
+            "type": "text",
+            "id": "wlNIk",
+            "name": "类型标签",
+            "fill": "#6F7C92",
+            "content": "类型",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 12
+          }
+        },
+        {
+          "id": "DsPdl",
+          "parent": "HHuYT",
+          "depth": 4,
+          "bounds": {
+            "x": 236,
+            "y": 0,
+            "width": 74,
+            "height": 17
+          },
+          "node": {
+            "type": "text",
+            "id": "DsPdl",
+            "name": "类型值",
+            "fill": "#34415A",
+            "content": "QEMU 虚拟机",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 12,
+            "fontWeight": "500"
+          }
+        },
+        {
+          "id": "UeFwf",
+          "parent": "q39Nk",
+          "depth": 3,
+          "bounds": {
+            "x": 18,
+            "y": 149,
+            "width": 310,
+            "height": 17
+          },
+          "node": {
+            "type": "frame",
+            "id": "UeFwf",
+            "name": "运行时长信息",
+            "width": "fill_container",
+            "justifyContent": "space_between",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "qzzc1",
+          "parent": "UeFwf",
+          "depth": 4,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 49,
+            "height": 17
+          },
+          "node": {
+            "type": "text",
+            "id": "qzzc1",
+            "name": "所属连接标签",
+            "fill": "#6F7C92",
+            "content": "所属连接",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 12
+          }
+        },
+        {
+          "id": "X5PEan",
+          "parent": "UeFwf",
+          "depth": 4,
+          "bounds": {
+            "x": 249,
+            "y": 0,
+            "width": 61,
+            "height": 17
+          },
+          "node": {
+            "type": "text",
+            "id": "X5PEan",
+            "name": "所属连接值",
+            "fill": "#34415A",
+            "content": "家庭实验室",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 12,
+            "fontWeight": "500"
+          }
+        },
+        {
+          "id": "N0FBz",
+          "parent": "pe2Y1",
+          "depth": 2,
+          "bounds": {
+            "x": 22,
+            "y": 547,
+            "width": 346,
+            "height": 140
+          },
+          "node": {
+            "type": "frame",
+            "id": "N0FBz",
+            "name": "资源操作",
+            "width": "fill_container",
+            "layout": "vertical",
+            "gap": 12
+          }
+        },
+        {
+          "id": "SovQp",
+          "parent": "N0FBz",
+          "depth": 3,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 346,
+            "height": 52
+          },
+          "node": {
+            "type": "frame",
+            "id": "SovQp",
+            "name": "打开控制台按钮",
+            "width": "fill_container",
+            "height": 52,
+            "fill": "#3448C8",
+            "cornerRadius": 12,
+            "gap": 8,
+            "justifyContent": "center",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "V59e3I",
+          "parent": "SovQp",
+          "depth": 4,
+          "bounds": {
+            "x": 124.5,
+            "y": 16.5,
+            "width": 19,
+            "height": 19
+          },
+          "node": {
+            "type": "icon",
+            "id": "V59e3I",
+            "name": "控制台图标",
+            "width": 19,
+            "height": 19,
+            "icon": "terminal",
+            "library": "lucide",
+            "fill": "#FFFFFF"
+          }
+        },
+        {
+          "id": "u3Ni9k",
+          "parent": "SovQp",
+          "depth": 4,
+          "bounds": {
+            "x": 151.5,
+            "y": 16,
+            "width": 70,
+            "height": 20
+          },
+          "node": {
+            "type": "text",
+            "id": "u3Ni9k",
+            "name": "控制台按钮文字",
+            "fill": "#FFFFFF",
+            "content": "打开控制台",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 14,
+            "fontWeight": "600"
+          }
+        },
+        {
+          "id": "yxqcO",
+          "parent": "N0FBz",
+          "depth": 3,
+          "bounds": {
+            "x": 0,
+            "y": 64,
+            "width": 346,
+            "height": 48
+          },
+          "node": {
+            "type": "frame",
+            "id": "yxqcO",
+            "name": "电源操作",
+            "width": "fill_container",
+            "gap": 12
+          }
+        },
+        {
+          "id": "BVHAf",
+          "parent": "yxqcO",
+          "depth": 4,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 167,
+            "height": 48
+          },
+          "node": {
+            "type": "frame",
+            "id": "BVHAf",
+            "name": "正常关机按钮",
+            "width": "fill_container",
+            "height": 48,
+            "fill": "#FFFFFF",
+            "cornerRadius": 12,
+            "stroke": "#DCE2EE",
+            "strokeWidth": 1,
+            "gap": 7,
+            "justifyContent": "center",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "jiGbh",
+          "parent": "BVHAf",
+          "depth": 5,
+          "bounds": {
+            "x": 45,
+            "y": 15.5,
+            "width": 17,
+            "height": 17
+          },
+          "node": {
+            "type": "icon",
+            "id": "jiGbh",
+            "name": "正常关机图标",
+            "width": 17,
+            "height": 17,
+            "icon": "power",
+            "library": "lucide",
+            "fill": "#56647D"
+          }
+        },
+        {
+          "id": "xD196",
+          "parent": "BVHAf",
+          "depth": 5,
+          "bounds": {
+            "x": 69,
+            "y": 14.5,
+            "width": 53,
+            "height": 19
+          },
+          "node": {
+            "type": "text",
+            "id": "xD196",
+            "name": "正常关机文字",
+            "fill": "#56647D",
+            "content": "正常关机",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 13,
+            "fontWeight": "500"
+          }
+        },
+        {
+          "id": "lKDUW",
+          "parent": "yxqcO",
+          "depth": 4,
+          "bounds": {
+            "x": 179,
+            "y": 0,
+            "width": 167,
+            "height": 48
+          },
+          "node": {
+            "type": "frame",
+            "id": "lKDUW",
+            "name": "重启按钮",
+            "width": "fill_container",
+            "height": 48,
+            "fill": "#FFFFFF",
+            "cornerRadius": 12,
+            "stroke": "#DCE2EE",
+            "strokeWidth": 1,
+            "gap": 7,
+            "justifyContent": "center",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "IUVOS",
+          "parent": "lKDUW",
+          "depth": 5,
+          "bounds": {
+            "x": 58,
+            "y": 15.5,
+            "width": 17,
+            "height": 17
+          },
+          "node": {
+            "type": "icon",
+            "id": "IUVOS",
+            "name": "重启图标",
+            "width": 17,
+            "height": 17,
+            "icon": "rotate-cw",
+            "library": "lucide",
+            "fill": "#56647D"
+          }
+        },
+        {
+          "id": "vZk6m",
+          "parent": "lKDUW",
+          "depth": 5,
+          "bounds": {
+            "x": 82,
+            "y": 14.5,
+            "width": 27,
+            "height": 19
+          },
+          "node": {
+            "type": "text",
+            "id": "vZk6m",
+            "name": "重启文字",
+            "fill": "#56647D",
+            "content": "重启",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 13,
+            "fontWeight": "500"
+          }
+        },
+        {
+          "id": "WKbNu",
+          "parent": "N0FBz",
+          "depth": 3,
+          "bounds": {
+            "x": 0,
+            "y": 124,
+            "width": 346,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "WKbNu",
+            "name": "电源操作说明",
+            "fill": "#6F7C92",
+            "textGrowth": "fixed-width",
+            "width": "fill_container",
+            "content": "电源操作需要确认，并自动跟踪执行结果。",
+            "textAlign": "center",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11
+          }
+        },
+        {
+          "id": "UFwAI",
+          "parent": "cLa4r",
+          "depth": 1,
+          "bounds": {
+            "x": 0,
+            "y": 763,
+            "width": 390,
+            "height": 66
+          },
+          "node": {
+            "type": "frame",
+            "id": "UFwAI",
+            "name": "底部导航区",
+            "width": "fill_container",
+            "padding": [
+              0,
+              16
+            ],
+            "justifyContent": "center"
+          }
+        },
+        {
+          "id": "DlyPL",
+          "parent": "UFwAI",
+          "depth": 2,
+          "bounds": {
+            "x": 16,
+            "y": 0,
+            "width": 358,
+            "height": 66
+          },
+          "node": {
+            "type": "frame",
+            "id": "DlyPL",
+            "name": "主导航",
+            "width": "fill_container",
+            "height": 66,
+            "fill": "#FFFFFF",
+            "cornerRadius": 33,
+            "stroke": "#E6EAF1",
+            "strokeWidth": 1,
+            "gap": 5,
+            "padding": 7
+          }
+        },
+        {
+          "id": "g0z8hB",
+          "parent": "DlyPL",
+          "depth": 3,
+          "bounds": {
+            "x": 7,
+            "y": 7,
+            "width": 111.33333333333333,
+            "height": 52
+          },
+          "node": {
+            "type": "frame",
+            "id": "g0z8hB",
+            "name": "资源导航",
+            "width": "fill_container",
+            "height": "fill_container",
+            "fill": "#E9EDFF",
+            "cornerRadius": 26,
+            "layout": "vertical",
+            "gap": 3,
+            "justifyContent": "center",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "WW1br",
+          "parent": "g0z8hB",
+          "depth": 4,
+          "bounds": {
+            "x": 45.66666666666667,
+            "y": 6.5,
+            "width": 20,
+            "height": 20
+          },
+          "node": {
+            "type": "icon",
+            "id": "WW1br",
+            "name": "资源导航图标",
+            "width": 20,
+            "height": 20,
+            "icon": "layers",
+            "library": "lucide",
+            "fill": "#3448C8"
+          }
+        },
+        {
+          "id": "kKAUb",
+          "parent": "g0z8hB",
+          "depth": 4,
+          "bounds": {
+            "x": 44.66666666666667,
+            "y": 29.5,
+            "width": 22,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "kKAUb",
+            "name": "资源导航文字",
+            "fill": "#3448C8",
+            "content": "资源",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11,
+            "fontWeight": "600"
+          }
+        },
+        {
+          "id": "xzXqa",
+          "parent": "DlyPL",
+          "depth": 3,
+          "bounds": {
+            "x": 123.33333333333333,
+            "y": 7,
+            "width": 111.33333333333333,
+            "height": 52
+          },
+          "node": {
+            "type": "frame",
+            "id": "xzXqa",
+            "name": "节点导航",
+            "width": "fill_container",
+            "height": "fill_container",
+            "fill": "#FFFFFF",
+            "cornerRadius": 26,
+            "layout": "vertical",
+            "gap": 3,
+            "justifyContent": "center",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "IhWkN",
+          "parent": "xzXqa",
+          "depth": 4,
+          "bounds": {
+            "x": 45.66666666666667,
+            "y": 6.5,
+            "width": 20,
+            "height": 20
+          },
+          "node": {
+            "type": "icon",
+            "id": "IhWkN",
+            "name": "节点导航图标",
+            "width": 20,
+            "height": 20,
+            "icon": "server",
+            "library": "lucide",
+            "fill": "#8A94A8"
+          }
+        },
+        {
+          "id": "nyiD0",
+          "parent": "xzXqa",
+          "depth": 4,
+          "bounds": {
+            "x": 44.66666666666667,
+            "y": 29.5,
+            "width": 22,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "nyiD0",
+            "name": "节点导航文字",
+            "fill": "#6F7C92",
+            "content": "节点",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11
+          }
+        },
+        {
+          "id": "ruNoO",
+          "parent": "DlyPL",
+          "depth": 3,
+          "bounds": {
+            "x": 239.66666666666666,
+            "y": 7,
+            "width": 111.33333333333334,
+            "height": 52
+          },
+          "node": {
+            "type": "frame",
+            "id": "ruNoO",
+            "name": "连接导航",
+            "width": "fill_container",
+            "height": "fill_container",
+            "fill": "#FFFFFF",
+            "cornerRadius": 26,
+            "layout": "vertical",
+            "gap": 3,
+            "justifyContent": "center",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "vhNnH",
+          "parent": "ruNoO",
+          "depth": 4,
+          "bounds": {
+            "x": 45.666666666666664,
+            "y": 6.5,
+            "width": 19.999999999999993,
+            "height": 20
+          },
+          "node": {
+            "type": "icon",
+            "id": "vhNnH",
+            "name": "连接导航图标",
+            "width": 20,
+            "height": 20,
+            "icon": "link",
+            "library": "lucide",
+            "fill": "#8A94A8"
+          }
+        },
+        {
+          "id": "XgLwa",
+          "parent": "ruNoO",
+          "depth": 4,
+          "bounds": {
+            "x": 44.66666666666667,
+            "y": 29.5,
+            "width": 22,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "XgLwa",
+            "name": "连接导航文字",
+            "fill": "#6F7C92",
+            "content": "连接",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11
+          }
+        }
+      ]
+    },
+    {
+      "id": "reULB",
+      "nodes": [
+        {
+          "id": "reULB",
+          "depth": 0,
+          "bounds": {
+            "x": 0,
+            "y": 33,
+            "width": 390,
+            "height": 886
+          },
+          "node": {
+            "type": "frame",
+            "id": "reULB",
+            "name": "PVE 管家 · 03 新增连接",
+            "clip": true,
+            "width": 390,
+            "fill": "#F5F7FB",
+            "cornerRadius": 20,
+            "stroke": "#DDE3EE",
+            "strokeWidth": 1,
+            "layout": "vertical",
+            "padding": [
+              0,
+              0,
+              24,
+              0
+            ]
+          }
+        },
+        {
+          "id": "PLrlm",
+          "parent": "reULB",
+          "depth": 1,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 52
+          },
+          "node": {
+            "type": "frame",
+            "id": "PLrlm",
+            "name": "系统状态栏",
+            "width": "fill_container",
+            "height": 52,
+            "padding": [
+              18,
+              24
+            ],
+            "justifyContent": "space_between",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "BUfmU",
+          "parent": "PLrlm",
+          "depth": 2,
+          "bounds": {
+            "x": 24,
+            "y": 17.5,
+            "width": 29,
+            "height": 17
+          },
+          "node": {
+            "type": "text",
+            "id": "BUfmU",
+            "name": "时间",
+            "fill": "#172239",
+            "content": "9:41",
+            "fontFamily": "Inter",
+            "fontSize": 14,
+            "fontWeight": "600"
+          }
+        },
+        {
+          "id": "P6XX4w",
+          "parent": "PLrlm",
+          "depth": 2,
+          "bounds": {
+            "x": 306,
+            "y": 18,
+            "width": 60,
+            "height": 16
+          },
+          "node": {
+            "type": "frame",
+            "id": "P6XX4w",
+            "name": "信号与电量",
+            "gap": 6,
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "z60Y55",
+          "parent": "P6XX4w",
+          "depth": 3,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 16,
+            "height": 16
+          },
+          "node": {
+            "type": "icon",
+            "id": "z60Y55",
+            "name": "signal",
+            "width": 16,
+            "height": 16,
+            "icon": "signal",
+            "library": "lucide",
+            "fill": "#172239"
+          }
+        },
+        {
+          "id": "pockp",
+          "parent": "P6XX4w",
+          "depth": 3,
+          "bounds": {
+            "x": 22,
+            "y": 0,
+            "width": 16,
+            "height": 16
+          },
+          "node": {
+            "type": "icon",
+            "id": "pockp",
+            "name": "wifi",
+            "width": 16,
+            "height": 16,
+            "icon": "wifi",
+            "library": "lucide",
+            "fill": "#172239"
+          }
+        },
+        {
+          "id": "i12CO",
+          "parent": "P6XX4w",
+          "depth": 3,
+          "bounds": {
+            "x": 44,
+            "y": 0,
+            "width": 16,
+            "height": 16
+          },
+          "node": {
+            "type": "icon",
+            "id": "i12CO",
+            "name": "battery-full",
+            "width": 16,
+            "height": 16,
+            "icon": "battery-full",
+            "library": "lucide",
+            "fill": "#172239"
+          }
+        },
+        {
+          "id": "qjZat",
+          "parent": "reULB",
+          "depth": 1,
+          "bounds": {
+            "x": 0,
+            "y": 52,
+            "width": 390,
+            "height": 810
+          },
+          "node": {
+            "type": "frame",
+            "id": "qjZat",
+            "name": "新增连接工作区",
+            "width": "fill_container",
+            "layout": "vertical",
+            "gap": 22,
+            "padding": [
+              12,
+              22,
+              0,
+              22
+            ]
+          }
+        },
+        {
+          "id": "d4eK8s",
+          "parent": "qjZat",
+          "depth": 2,
+          "bounds": {
+            "x": 22,
+            "y": 12,
+            "width": 346,
+            "height": 58
+          },
+          "node": {
+            "type": "frame",
+            "id": "d4eK8s",
+            "name": "连接页面标题",
+            "width": "fill_container",
+            "justifyContent": "space_between",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "Ev2Ew",
+          "parent": "d4eK8s",
+          "depth": 3,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 156,
+            "height": 58
+          },
+          "node": {
+            "type": "frame",
+            "id": "Ev2Ew",
+            "name": "标题和说明",
+            "layout": "vertical",
+            "gap": 5
+          }
+        },
+        {
+          "id": "w6XDDZ",
+          "parent": "Ev2Ew",
+          "depth": 4,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 101,
+            "height": 36
+          },
+          "node": {
+            "type": "text",
+            "id": "w6XDDZ",
+            "name": "新增连接标题",
+            "fill": "#172239",
+            "content": "新增连接",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 25,
+            "fontWeight": "700"
+          }
+        },
+        {
+          "id": "nD2gT",
+          "parent": "Ev2Ew",
+          "depth": 4,
+          "bounds": {
+            "x": 0,
+            "y": 41,
+            "width": 156,
+            "height": 17
+          },
+          "node": {
+            "type": "text",
+            "id": "nD2gT",
+            "name": "连接副标题",
+            "fill": "#68758C",
+            "content": "接入你的 Proxmox VE 服务器",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 12
+          }
+        },
+        {
+          "id": "Wx1FI",
+          "parent": "d4eK8s",
+          "depth": 3,
+          "bounds": {
+            "x": 306,
+            "y": 7,
+            "width": 40,
+            "height": 44
+          },
+          "node": {
+            "type": "frame",
+            "id": "Wx1FI",
+            "name": "关闭连接表单",
+            "width": 40,
+            "height": 44,
+            "justifyContent": "center",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "gnqyq",
+          "parent": "Wx1FI",
+          "depth": 4,
+          "bounds": {
+            "x": 9.5,
+            "y": 11.5,
+            "width": 21,
+            "height": 21
+          },
+          "node": {
+            "type": "icon",
+            "id": "gnqyq",
+            "name": "关闭图标",
+            "width": 21,
+            "height": 21,
+            "icon": "x",
+            "library": "lucide",
+            "fill": "#68758D"
+          }
+        },
+        {
+          "id": "sygQv",
+          "parent": "qjZat",
+          "depth": 2,
+          "bounds": {
+            "x": 22,
+            "y": 92,
+            "width": 346,
+            "height": 548
+          },
+          "node": {
+            "type": "frame",
+            "id": "sygQv",
+            "name": "连接配置表单",
+            "width": "fill_container",
+            "fill": "#FFFFFF",
+            "cornerRadius": 16,
+            "stroke": "#E5E9F1",
+            "strokeWidth": 1,
+            "layout": "vertical",
+            "gap": 18,
+            "padding": 18
+          }
+        },
+        {
+          "id": "D0Rh7y",
+          "parent": "sygQv",
+          "depth": 3,
+          "bounds": {
+            "x": 18,
+            "y": 18,
+            "width": 310,
+            "height": 19
+          },
+          "node": {
+            "type": "frame",
+            "id": "D0Rh7y",
+            "name": "服务器分组",
+            "width": "fill_container",
+            "gap": 7,
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "h1wHxR",
+          "parent": "D0Rh7y",
+          "depth": 4,
+          "bounds": {
+            "x": 0,
+            "y": 1.5,
+            "width": 16,
+            "height": 16
+          },
+          "node": {
+            "type": "icon",
+            "id": "h1wHxR",
+            "name": "服务器分组图标",
+            "width": 16,
+            "height": 16,
+            "icon": "server",
+            "library": "lucide",
+            "fill": "#3448C8"
+          }
+        },
+        {
+          "id": "hFfJW",
+          "parent": "D0Rh7y",
+          "depth": 4,
+          "bounds": {
+            "x": 23,
+            "y": 0,
+            "width": 40,
+            "height": 19
+          },
+          "node": {
+            "type": "text",
+            "id": "hFfJW",
+            "name": "服务器分组文字",
+            "fill": "#34415A",
+            "content": "服务器",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 13,
+            "fontWeight": "600"
+          }
+        },
+        {
+          "id": "XzeGa",
+          "parent": "sygQv",
+          "depth": 3,
+          "bounds": {
+            "x": 18,
+            "y": 55,
+            "width": 310,
+            "height": 69
+          },
+          "node": {
+            "type": "frame",
+            "id": "XzeGa",
+            "name": "连接名称字段组",
+            "width": "fill_container",
+            "layout": "vertical",
+            "gap": 7
+          }
+        },
+        {
+          "id": "j3dd51",
+          "parent": "XzeGa",
+          "depth": 4,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 44,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "j3dd51",
+            "name": "连接名称标签",
+            "fill": "#748098",
+            "content": "连接名称",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11
+          }
+        },
+        {
+          "id": "iaAnA",
+          "parent": "XzeGa",
+          "depth": 4,
+          "bounds": {
+            "x": 0,
+            "y": 23,
+            "width": 310,
+            "height": 46
+          },
+          "node": {
+            "type": "frame",
+            "id": "iaAnA",
+            "name": "连接名称输入框",
+            "width": "fill_container",
+            "height": 46,
+            "fill": "#F8FAFD",
+            "cornerRadius": 9,
+            "stroke": "#E2E7F0",
+            "strokeWidth": 1,
+            "gap": 8,
+            "padding": [
+              0,
+              12
+            ],
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "MCHCZ",
+          "parent": "iaAnA",
+          "depth": 5,
+          "bounds": {
+            "x": 12,
+            "y": 13.5,
+            "width": 286,
+            "height": 19
+          },
+          "node": {
+            "type": "text",
+            "id": "MCHCZ",
+            "name": "连接名称输入值",
+            "fill": "#34415A",
+            "textGrowth": "fixed-width",
+            "width": "fill_container",
+            "content": "家庭实验室",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 13
+          }
+        },
+        {
+          "id": "A5NR6",
+          "parent": "sygQv",
+          "depth": 3,
+          "bounds": {
+            "x": 18,
+            "y": 142,
+            "width": 310,
+            "height": 69
+          },
+          "node": {
+            "type": "frame",
+            "id": "A5NR6",
+            "name": "主机和端口",
+            "width": "fill_container",
+            "gap": 12
+          }
+        },
+        {
+          "id": "F2CrCM",
+          "parent": "A5NR6",
+          "depth": 4,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 214,
+            "height": 69
+          },
+          "node": {
+            "type": "frame",
+            "id": "F2CrCM",
+            "name": "主机地址字段组",
+            "width": "fill_container",
+            "layout": "vertical",
+            "gap": 7
+          }
+        },
+        {
+          "id": "Mi3c8",
+          "parent": "F2CrCM",
+          "depth": 5,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 44,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "Mi3c8",
+            "name": "主机地址标签",
+            "fill": "#748098",
+            "content": "主机地址",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11
+          }
+        },
+        {
+          "id": "P7OjHY",
+          "parent": "F2CrCM",
+          "depth": 5,
+          "bounds": {
+            "x": 0,
+            "y": 23,
+            "width": 214,
+            "height": 46
+          },
+          "node": {
+            "type": "frame",
+            "id": "P7OjHY",
+            "name": "主机地址输入框",
+            "width": "fill_container",
+            "height": 46,
+            "fill": "#F8FAFD",
+            "cornerRadius": 9,
+            "stroke": "#E2E7F0",
+            "strokeWidth": 1,
+            "gap": 8,
+            "padding": [
+              0,
+              12
+            ],
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "o96GvU",
+          "parent": "P7OjHY",
+          "depth": 6,
+          "bounds": {
+            "x": 12,
+            "y": 13.5,
+            "width": 190,
+            "height": 19
+          },
+          "node": {
+            "type": "text",
+            "id": "o96GvU",
+            "name": "主机地址输入值",
+            "fill": "#34415A",
+            "textGrowth": "fixed-width",
+            "width": "fill_container",
+            "content": "192.168.1.10",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 13
+          }
+        },
+        {
+          "id": "noAFO",
+          "parent": "A5NR6",
+          "depth": 4,
+          "bounds": {
+            "x": 226,
+            "y": 0,
+            "width": 84,
+            "height": 69
+          },
+          "node": {
+            "type": "frame",
+            "id": "noAFO",
+            "name": "端口字段组",
+            "width": 84,
+            "layout": "vertical",
+            "gap": 7
+          }
+        },
+        {
+          "id": "N6trZs",
+          "parent": "noAFO",
+          "depth": 5,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "N6trZs",
+            "name": "端口标签",
+            "fill": "#748098",
+            "content": "端口",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11
+          }
+        },
+        {
+          "id": "LBTgv",
+          "parent": "noAFO",
+          "depth": 5,
+          "bounds": {
+            "x": 0,
+            "y": 23,
+            "width": 84,
+            "height": 46
+          },
+          "node": {
+            "type": "frame",
+            "id": "LBTgv",
+            "name": "端口输入框",
+            "width": "fill_container",
+            "height": 46,
+            "fill": "#F8FAFD",
+            "cornerRadius": 9,
+            "stroke": "#E2E7F0",
+            "strokeWidth": 1,
+            "gap": 8,
+            "padding": [
+              0,
+              12
+            ],
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "C4gi9h",
+          "parent": "LBTgv",
+          "depth": 6,
+          "bounds": {
+            "x": 12,
+            "y": 13.5,
+            "width": 60,
+            "height": 19
+          },
+          "node": {
+            "type": "text",
+            "id": "C4gi9h",
+            "name": "端口输入值",
+            "fill": "#34415A",
+            "textGrowth": "fixed-width",
+            "width": "fill_container",
+            "content": "8006",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 13
+          }
+        },
+        {
+          "id": "zBevX",
+          "parent": "sygQv",
+          "depth": 3,
+          "bounds": {
+            "x": 18,
+            "y": 229,
+            "width": 310,
+            "height": 16
+          },
+          "node": {
+            "type": "frame",
+            "id": "zBevX",
+            "name": "HTTPS 提示",
+            "width": "fill_container",
+            "gap": 5,
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "QAX5K",
+          "parent": "zBevX",
+          "depth": 4,
+          "bounds": {
+            "x": 0,
+            "y": 2,
+            "width": 12,
+            "height": 12
+          },
+          "node": {
+            "type": "icon",
+            "id": "QAX5K",
+            "name": "安全协议图标",
+            "width": 12,
+            "height": 12,
+            "icon": "lock-keyhole",
+            "library": "lucide",
+            "fill": "#8A94A8"
+          }
+        },
+        {
+          "id": "xf1JO",
+          "parent": "zBevX",
+          "depth": 4,
+          "bounds": {
+            "x": 17,
+            "y": 0,
+            "width": 106,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "xf1JO",
+            "name": "协议帮助",
+            "fill": "#6F7C92",
+            "content": "使用 HTTPS 安全连接",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11
+          }
+        },
+        {
+          "id": "iwWCX",
+          "parent": "sygQv",
+          "depth": 3,
+          "bounds": {
+            "x": 18,
+            "y": 263,
+            "width": 310,
+            "height": 1
+          },
+          "node": {
+            "type": "rectangle",
+            "id": "iwWCX",
+            "name": "配置分隔线",
+            "fill": "#EDF0F6",
+            "width": "fill_container",
+            "height": 1
+          }
+        },
+        {
+          "id": "OeXF0",
+          "parent": "sygQv",
+          "depth": 3,
+          "bounds": {
+            "x": 18,
+            "y": 282,
+            "width": 310,
+            "height": 19
+          },
+          "node": {
+            "type": "frame",
+            "id": "OeXF0",
+            "name": "账户分组",
+            "width": "fill_container",
+            "gap": 7,
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "IXbmt",
+          "parent": "OeXF0",
+          "depth": 4,
+          "bounds": {
+            "x": 0,
+            "y": 1.5,
+            "width": 16,
+            "height": 16
+          },
+          "node": {
+            "type": "icon",
+            "id": "IXbmt",
+            "name": "账户分组图标",
+            "width": 16,
+            "height": 16,
+            "icon": "user-round",
+            "library": "lucide",
+            "fill": "#3448C8"
+          }
+        },
+        {
+          "id": "eXxae",
+          "parent": "OeXF0",
+          "depth": 4,
+          "bounds": {
+            "x": 23,
+            "y": 0,
+            "width": 53,
+            "height": 19
+          },
+          "node": {
+            "type": "text",
+            "id": "eXxae",
+            "name": "账户分组文字",
+            "fill": "#34415A",
+            "content": "登录账户",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 13,
+            "fontWeight": "600"
+          }
+        },
+        {
+          "id": "riysR",
+          "parent": "sygQv",
+          "depth": 3,
+          "bounds": {
+            "x": 18,
+            "y": 319,
+            "width": 310,
+            "height": 69
+          },
+          "node": {
+            "type": "frame",
+            "id": "riysR",
+            "name": "用户名和认证域",
+            "width": "fill_container",
+            "gap": 12
+          }
+        },
+        {
+          "id": "yKutC",
+          "parent": "riysR",
+          "depth": 4,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 202,
+            "height": 69
+          },
+          "node": {
+            "type": "frame",
+            "id": "yKutC",
+            "name": "用户名字段组",
+            "width": "fill_container",
+            "layout": "vertical",
+            "gap": 7
+          }
+        },
+        {
+          "id": "WXCYR",
+          "parent": "yKutC",
+          "depth": 5,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 33,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "WXCYR",
+            "name": "用户名标签",
+            "fill": "#748098",
+            "content": "用户名",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11
+          }
+        },
+        {
+          "id": "lMnEN",
+          "parent": "yKutC",
+          "depth": 5,
+          "bounds": {
+            "x": 0,
+            "y": 23,
+            "width": 202,
+            "height": 46
+          },
+          "node": {
+            "type": "frame",
+            "id": "lMnEN",
+            "name": "用户名输入框",
+            "width": "fill_container",
+            "height": 46,
+            "fill": "#F8FAFD",
+            "cornerRadius": 9,
+            "stroke": "#E2E7F0",
+            "strokeWidth": 1,
+            "gap": 8,
+            "padding": [
+              0,
+              12
+            ],
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "o8KLkI",
+          "parent": "lMnEN",
+          "depth": 6,
+          "bounds": {
+            "x": 12,
+            "y": 13.5,
+            "width": 178,
+            "height": 19
+          },
+          "node": {
+            "type": "text",
+            "id": "o8KLkI",
+            "name": "用户名输入值",
+            "fill": "#34415A",
+            "textGrowth": "fixed-width",
+            "width": "fill_container",
+            "content": "mobile",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 13
+          }
+        },
+        {
+          "id": "qUp06",
+          "parent": "riysR",
+          "depth": 4,
+          "bounds": {
+            "x": 214,
+            "y": 0,
+            "width": 96,
+            "height": 69
+          },
+          "node": {
+            "type": "frame",
+            "id": "qUp06",
+            "name": "认证域字段组",
+            "width": 96,
+            "layout": "vertical",
+            "gap": 7
+          }
+        },
+        {
+          "id": "aoRpY",
+          "parent": "qUp06",
+          "depth": 5,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 33,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "aoRpY",
+            "name": "认证域标签",
+            "fill": "#748098",
+            "content": "认证域",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11
+          }
+        },
+        {
+          "id": "Gu0A5",
+          "parent": "qUp06",
+          "depth": 5,
+          "bounds": {
+            "x": 0,
+            "y": 23,
+            "width": 96,
+            "height": 46
+          },
+          "node": {
+            "type": "frame",
+            "id": "Gu0A5",
+            "name": "认证域输入框",
+            "width": "fill_container",
+            "height": 46,
+            "fill": "#F8FAFD",
+            "cornerRadius": 9,
+            "stroke": "#E2E7F0",
+            "strokeWidth": 1,
+            "gap": 8,
+            "padding": [
+              0,
+              12
+            ],
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "E1lQc",
+          "parent": "Gu0A5",
+          "depth": 6,
+          "bounds": {
+            "x": 12,
+            "y": 13.5,
+            "width": 48,
+            "height": 19
+          },
+          "node": {
+            "type": "text",
+            "id": "E1lQc",
+            "name": "认证域输入值",
+            "fill": "#34415A",
+            "textGrowth": "fixed-width",
+            "width": "fill_container",
+            "content": "pve",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 13
+          }
+        },
+        {
+          "id": "L7DlZ",
+          "parent": "Gu0A5",
+          "depth": 6,
+          "bounds": {
+            "x": 68,
+            "y": 15,
+            "width": 16,
+            "height": 16
+          },
+          "node": {
+            "type": "icon",
+            "id": "L7DlZ",
+            "name": "认证域附加图标",
+            "width": 16,
+            "height": 16,
+            "icon": "chevron-down",
+            "library": "lucide",
+            "fill": "#8A94A8"
+          }
+        },
+        {
+          "id": "GuEEp",
+          "parent": "sygQv",
+          "depth": 3,
+          "bounds": {
+            "x": 18,
+            "y": 406,
+            "width": 310,
+            "height": 69
+          },
+          "node": {
+            "type": "frame",
+            "id": "GuEEp",
+            "name": "密码字段组",
+            "width": "fill_container",
+            "layout": "vertical",
+            "gap": 7
+          }
+        },
+        {
+          "id": "fl3pQ",
+          "parent": "GuEEp",
+          "depth": 4,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "fl3pQ",
+            "name": "密码标签",
+            "fill": "#748098",
+            "content": "密码",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11
+          }
+        },
+        {
+          "id": "LZnlW",
+          "parent": "GuEEp",
+          "depth": 4,
+          "bounds": {
+            "x": 0,
+            "y": 23,
+            "width": 310,
+            "height": 46
+          },
+          "node": {
+            "type": "frame",
+            "id": "LZnlW",
+            "name": "密码输入框",
+            "width": "fill_container",
+            "height": 46,
+            "fill": "#F8FAFD",
+            "cornerRadius": 9,
+            "stroke": "#E2E7F0",
+            "strokeWidth": 1,
+            "gap": 8,
+            "padding": [
+              0,
+              12
+            ],
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "nDJue",
+          "parent": "LZnlW",
+          "depth": 5,
+          "bounds": {
+            "x": 12,
+            "y": 13.5,
+            "width": 262,
+            "height": 19
+          },
+          "node": {
+            "type": "text",
+            "id": "nDJue",
+            "name": "密码输入值",
+            "fill": "#34415A",
+            "textGrowth": "fixed-width",
+            "width": "fill_container",
+            "content": "••••••••••••",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 13
+          }
+        },
+        {
+          "id": "LouSF",
+          "parent": "LZnlW",
+          "depth": 5,
+          "bounds": {
+            "x": 282,
+            "y": 15,
+            "width": 16,
+            "height": 16
+          },
+          "node": {
+            "type": "icon",
+            "id": "LouSF",
+            "name": "密码附加图标",
+            "width": 16,
+            "height": 16,
+            "icon": "eye",
+            "library": "lucide",
+            "fill": "#8A94A8"
+          }
+        },
+        {
+          "id": "zCBlJ",
+          "parent": "sygQv",
+          "depth": 3,
+          "bounds": {
+            "x": 18,
+            "y": 493,
+            "width": 310,
+            "height": 37
+          },
+          "node": {
+            "type": "frame",
+            "id": "zCBlJ",
+            "name": "记住密码选项",
+            "width": "fill_container",
+            "justifyContent": "space_between",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "YFHQ7",
+          "parent": "zCBlJ",
+          "depth": 4,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 88,
+            "height": 37
+          },
+          "node": {
+            "type": "frame",
+            "id": "YFHQ7",
+            "name": "密码记忆说明",
+            "layout": "vertical",
+            "gap": 4
+          }
+        },
+        {
+          "id": "G3hCls",
+          "parent": "YFHQ7",
+          "depth": 5,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 49,
+            "height": 17
+          },
+          "node": {
+            "type": "text",
+            "id": "G3hCls",
+            "name": "记住密码标签",
+            "fill": "#34415A",
+            "content": "记住密码",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 12,
+            "fontWeight": "500"
+          }
+        },
+        {
+          "id": "H5AQea",
+          "parent": "YFHQ7",
+          "depth": 5,
+          "bounds": {
+            "x": 0,
+            "y": 21,
+            "width": 88,
+            "height": 16
+          },
+          "node": {
+            "type": "text",
+            "id": "H5AQea",
+            "name": "记住密码说明",
+            "fill": "#6F7C92",
+            "content": "加密保存在此设备",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11
+          }
+        },
+        {
+          "id": "IhFDa",
+          "parent": "zCBlJ",
+          "depth": 4,
+          "bounds": {
+            "x": 270,
+            "y": 6.5,
+            "width": 40,
+            "height": 24
+          },
+          "node": {
+            "type": "frame",
+            "id": "IhFDa",
+            "name": "记住密码开关",
+            "width": 40,
+            "height": 24,
+            "fill": "#3448C8",
+            "cornerRadius": 12,
+            "padding": 3,
+            "justifyContent": "end",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "XLjlb",
+          "parent": "IhFDa",
+          "depth": 5,
+          "bounds": {
+            "x": 19,
+            "y": 3,
+            "width": 18,
+            "height": 18
+          },
+          "node": {
+            "type": "ellipse",
+            "id": "XLjlb",
+            "name": "开关圆点",
+            "fill": "#FFFFFF",
+            "width": 18,
+            "height": 18
+          }
+        },
+        {
+          "id": "SsKnk",
+          "parent": "qjZat",
+          "depth": 2,
+          "bounds": {
+            "x": 22,
+            "y": 662,
+            "width": 346,
+            "height": 18
+          },
+          "node": {
+            "type": "frame",
+            "id": "SsKnk",
+            "name": "证书流程提示",
+            "width": "fill_container",
+            "gap": 8
+          }
+        },
+        {
+          "id": "ceeEt",
+          "parent": "SsKnk",
+          "depth": 3,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 17,
+            "height": 17
+          },
+          "node": {
+            "type": "icon",
+            "id": "ceeEt",
+            "name": "证书提示图标",
+            "width": 17,
+            "height": 17,
+            "icon": "shield-check",
+            "library": "lucide",
+            "fill": "#6476BA"
+          }
+        },
+        {
+          "id": "GrnaM",
+          "parent": "SsKnk",
+          "depth": 3,
+          "bounds": {
+            "x": 25,
+            "y": 0,
+            "width": 321,
+            "height": 18
+          },
+          "node": {
+            "type": "text",
+            "id": "GrnaM",
+            "name": "证书提示文字",
+            "fill": "#7D899E",
+            "textGrowth": "fixed-width",
+            "width": "fill_container",
+            "content": "证书无法验证时，需核对并确认服务器指纹。",
+            "lineHeight": 1.6,
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 11
+          }
+        },
+        {
+          "id": "Vogla",
+          "parent": "qjZat",
+          "depth": 2,
+          "bounds": {
+            "x": 22,
+            "y": 702,
+            "width": 346,
+            "height": 108
+          },
+          "node": {
+            "type": "frame",
+            "id": "Vogla",
+            "name": "连接表单操作",
+            "width": "fill_container",
+            "layout": "vertical",
+            "gap": 10
+          }
+        },
+        {
+          "id": "IgYap",
+          "parent": "Vogla",
+          "depth": 3,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 346,
+            "height": 52
+          },
+          "node": {
+            "type": "frame",
+            "id": "IgYap",
+            "name": "保存并连接按钮",
+            "width": "fill_container",
+            "height": 52,
+            "fill": "#3448C8",
+            "cornerRadius": 12,
+            "gap": 8,
+            "justifyContent": "center",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "WQ3Uq",
+          "parent": "IgYap",
+          "depth": 4,
+          "bounds": {
+            "x": 125.5,
+            "y": 16,
+            "width": 70,
+            "height": 20
+          },
+          "node": {
+            "type": "text",
+            "id": "WQ3Uq",
+            "name": "保存按钮文字",
+            "fill": "#FFFFFF",
+            "content": "保存并连接",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 14,
+            "fontWeight": "600"
+          }
+        },
+        {
+          "id": "shhgz",
+          "parent": "IgYap",
+          "depth": 4,
+          "bounds": {
+            "x": 203.5,
+            "y": 17.5,
+            "width": 17,
+            "height": 17
+          },
+          "node": {
+            "type": "icon",
+            "id": "shhgz",
+            "name": "连接箭头",
+            "width": 17,
+            "height": 17,
+            "icon": "arrow-right",
+            "library": "lucide",
+            "fill": "#FFFFFF"
+          }
+        },
+        {
+          "id": "Zc8BT",
+          "parent": "Vogla",
+          "depth": 3,
+          "bounds": {
+            "x": 0,
+            "y": 62,
+            "width": 346,
+            "height": 46
+          },
+          "node": {
+            "type": "frame",
+            "id": "Zc8BT",
+            "name": "测试连接按钮",
+            "width": "fill_container",
+            "height": 46,
+            "gap": 7,
+            "justifyContent": "center",
+            "alignItems": "center"
+          }
+        },
+        {
+          "id": "V9KJtI",
+          "parent": "Zc8BT",
+          "depth": 4,
+          "bounds": {
+            "x": 128.5,
+            "y": 15,
+            "width": 16,
+            "height": 16
+          },
+          "node": {
+            "type": "icon",
+            "id": "V9KJtI",
+            "name": "测试连接图标",
+            "width": 16,
+            "height": 16,
+            "icon": "activity",
+            "library": "lucide",
+            "fill": "#64718A"
+          }
+        },
+        {
+          "id": "idnbi",
+          "parent": "Zc8BT",
+          "depth": 4,
+          "bounds": {
+            "x": 151.5,
+            "y": 13.5,
+            "width": 66,
+            "height": 19
+          },
+          "node": {
+            "type": "text",
+            "id": "idnbi",
+            "name": "测试连接文字",
+            "fill": "#64718A",
+            "content": "先测试连接",
+            "fontFamily": "Noto Sans SC",
+            "fontSize": 13,
+            "fontWeight": "500"
+          }
+        }
+      ]
+    }
+  ]
+}
