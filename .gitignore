@@ -40,6 +40,7 @@ migrate_working_dir/
 key.properties
 /dist/**/*.apk
 /dist/**/*.zip
+/dist/**/*.mp4
 
 # Symbolication related
 app.*.symbols

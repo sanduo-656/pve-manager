@@ -1,0 +1,66 @@
+[
+  {
+    "start": 0,
+    "end": 8,
+    "title": "无需 Google Play 环境",
+    "subtitle": "不用谷歌账号 · 下载 APK 直接安装",
+    "narration": "不需要 Google Play 服务，也不用谷歌账号。下载 APK，直接安装 PVE 管家。",
+    "visual": "新图标与应用内首页淡入，右侧手机录屏；持续角标“演示数据”，版本 v0.4.2+7。"
+  },
+  {
+    "start": 8,
+    "end": 18,
+    "title": "资源，一眼看清",
+    "subtitle": "VM / LXC · 状态 · CPU · 内存",
+    "narration": "统一查看虚拟机和容器，状态、CPU 和内存一目了然。多个连接，也能快速切换。",
+    "visual": "资源列表录屏，突出 VM、LXC、运行状态、CPU 和内存，展示连接筛选。"
+  },
+  {
+    "start": 18,
+    "end": 28,
+    "title": "常用操作，触手可及",
+    "subtitle": "开机 · 正常关机 · 重启",
+    "narration": "进入详情，操作更方便。开机、正常关机与重启，查看任务结果和控制台入口。",
+    "visual": "资源详情录屏，展示按钮、演示任务结果和控制台入口；不展示虚构的控制台连接。"
+  },
+  {
+    "start": 28,
+    "end": 38,
+    "title": "宿主机，也能掌握",
+    "subtitle": "CPU · 内存 · 根分区 · 网络",
+    "narration": "宿主机资源也能掌握。CPU、内存、根分区与网络，还有负载、交换空间和存储容量。",
+    "visual": "节点详情录屏，从资源概览向下滚动，展示负载、Swap 与存储容量。"
+  },
+  {
+    "start": 38,
+    "end": 48,
+    "title": "趋势与容量，一起查看",
+    "subtitle": "1 小时到 1 年 · 历史趋势",
+    "narration": "历史趋势从一小时到一年。网络展示节点汇总采样，磁盘页面展示的是容量。",
+    "visual": "切换历史时间范围，展示趋势曲线和存储列表；脚注“网络为节点汇总 RRD 采样；磁盘监控以容量为主”。"
+  },
+  {
+    "start": 48,
+    "end": 58,
+    "title": "登录，清晰直接",
+    "subtitle": "HTTPS · 证书指纹 · TOTP",
+    "narration": "HTTPS 与证书指纹确认，支持动态验证码登录。默认端口八零零六，认证域 PAM。",
+    "visual": "登录页录屏，展开高级设置，展示默认 8006 / pam；仅用文字说明证书确认和 TOTP。"
+  },
+  {
+    "start": 58,
+    "end": 64,
+    "title": "v0.4.2 · 测试体验版",
+    "subtitle": "Android 7.0+ · 演示数据",
+    "narration": "画面采用演示数据。当前是测试体验版，支持安卓七及以上。",
+    "visual": "首页与节点组合画面；标注测试签名 APK、Android 7.0+；真实 PVE 环境仍需进一步验证。"
+  },
+  {
+    "start": 64,
+    "end": 70,
+    "title": "下载 PVE 管家",
+    "subtitle": "github.com/sanduo-656/pve-manager",
+    "narration": "前往 GitHub 下载体验，搜索 PVE 管家，或访问画面中的地址。",
+    "visual": "新图标与 GitHub 地址定格，提示 Releases 提供 APK；版本 v0.4.2+7，测试体验版。"
+  }
+]

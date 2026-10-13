@@ -1,10 +1,20 @@
 # PVE 管家
 
+<img src="assets/branding/pve-manager-icon.png" width="96" alt="PVE 管家应用图标">
+
 在 Android 手机上查看 Proxmox VE 资源、管理虚拟机与容器，并了解宿主机的资源使用情况。
 
-PVE 管家是面向 Proxmox VE 8/9 的第三方客户端，提供中文界面、多连接管理、资源电源操作和 PVE 自带的远程控制台。当前版本为 **0.4.1+6**，适用于 **Android 7.0 及以上**。
+PVE 管家是面向 Proxmox VE 8/9 的第三方客户端，提供中文界面、多连接管理、资源电源操作和 PVE 自带的远程控制台。当前版本为 **0.4.2+7**，适用于 **Android 7.0 及以上**。
 
-[下载安装包](https://github.com/sanduo-656/pve-manager/releases/tag/v0.4.1) · [本版更新](docs/release-v0.4.1.md) · [介绍文字稿](docs/project-introduction.md) · [PVE 账号与权限配置](docs/pve_setup.md)
+**无需 Google Play 服务（GMS）或 Google 账号，下载 APK 即可安装。** 远程控制台仍需设备提供可用的 Android 系统 WebView；管理和监控需要设备能够通过网络访问 PVE。
+
+[下载安装包](https://github.com/sanduo-656/pve-manager/releases/tag/v0.4.2) · [本版更新](docs/release-v0.4.2.md) · [介绍文字稿](docs/project-introduction.md) · [PVE 账号与权限配置](docs/pve_setup.md)
+
+[![PVE 管家宣传视频封面](docs/video/pve-manager-cover.png)](https://github.com/sanduo-656/pve-manager/releases/download/v0.4.2/PVE-Manager-0.4.2%2B7-promo-1080p.mp4)
+
+[观看／下载宣传视频（1080p，70 秒）](https://github.com/sanduo-656/pve-manager/releases/download/v0.4.2/PVE-Manager-0.4.2%2B7-promo-1080p.mp4) · [视频介绍稿](docs/video/promo-script.md)
+
+视频包含中文配音、字幕、原创合成配乐和模拟器实录；资源与监控数值使用演示数据。
 
 ![PVE 管家：资源管理与节点监控](docs/images/pve-manager-overview.png)
 
@@ -48,9 +58,11 @@ PVE 管家是面向 Proxmox VE 8/9 的第三方客户端，提供中文界面、
 
 ## 下载与使用
 
-从 [GitHub Releases](https://github.com/sanduo-656/pve-manager/releases/tag/v0.4.1) 下载 `PVE-Manager-0.4.1+6-release.apk`，同时下载 `SHA256SUMS.txt` 可核对安装包。当前包约 64.4 MiB，包含 arm64-v8a、armeabi-v7a 和 x86_64。
+从 [GitHub Releases](https://github.com/sanduo-656/pve-manager/releases/tag/v0.4.2) 下载 `PVE-Manager-0.4.2+7-release.apk`，同时下载 `SHA256SUMS.txt` 可核对安装包。当前包约 64.7 MiB，包含 arm64-v8a、armeabi-v7a 和 x86_64。
 
-同一发布页提供完整源码压缩包和介绍素材包。素材包包含中文介绍稿、两张 1920×1080 介绍图、界面截图和账号配置指南。
+直接安装 APK，无需 Google Play 商店、Google Play 服务（GMS）或 Google 账号。远程控制台依赖 Android 系统 WebView，需保持其可用。应用通过 HTTPS 连接 PVE；手机需要处于可访问服务器的局域网、VPN 或其他已配置网络中。
+
+同一发布页提供完整源码压缩包、介绍素材包及 1080p 宣传视频。素材包含中文介绍稿、介绍图、界面截图、新应用图标、视频封面和账号配置指南。
 
 当前 APK 使用内部测试签名，适合测试与体验；尚未作为正式商店签名版本发布。版本号显示在应用内首页，桌面名称保持“PVE 管家”。
 
@@ -72,9 +84,11 @@ PVE 管家是面向 Proxmox VE 8/9 的第三方客户端，提供中文界面、
 
 ## 当前验证情况与限制
 
-0.4.1+6 已通过静态分析、**150 项自动化测试**、Release APK 签名与对齐检查，以及 Android API 36 模拟器安装和启动验证。自动化测试覆盖 API 解析、会话与证书处理、节点监控刷新、缓存及错误状态，以及界面布局和交互。
+0.4.2+7 通过静态分析、10 项应用信息／可访问性／截图定向测试，以及宣传录屏集成测试。Release 运行时依赖没有 Google Play 服务或 Firebase。在 Android API 36 模拟器临时停用 GMS 和 Play 商店后，完成安装、冷启动、登录页与首页界面检查；随后已恢复这两个组件。此项验证仅覆盖该模拟器及上述界面流程，不代表无 GMS ROM 上的真实 PVE 全功能验收。详见 [0.4.2 发布说明](docs/release-v0.4.2.md)。
 
-新增节点监控在真实 PVE 8/9 上的字段、采样精度和权限表现仍需进一步验证。自动化测试与演示截图不能替代目标设备上的控制台、TOTP、长期会话及电源操作验证。遇到问题时，请在 [Issues](https://github.com/sanduo-656/pve-manager/issues) 提供应用版本、Android/PVE 版本、复现步骤及脱敏后的错误信息。
+此前的 0.4.1+6 通过 **150 项自动化测试**、Release APK 签名与对齐检查，以及 Android API 36 模拟器安装和启动验证。自动化测试覆盖 API 解析、会话与证书处理、节点监控刷新、缓存及错误状态，以及界面布局和交互。
+
+节点监控在真实 PVE 8/9 上的字段、采样精度和权限表现仍需进一步验证。自动化测试与演示截图不能替代目标设备上的控制台、TOTP、长期会话及电源操作验证。遇到问题时，请在 [Issues](https://github.com/sanduo-656/pve-manager/issues) 提供应用版本、Android/PVE 版本、复现步骤及脱敏后的错误信息。
 
 已知使用限制：
 

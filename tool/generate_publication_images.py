@@ -6,10 +6,13 @@ synthetic; the generator never reads connections, accounts or credentials.
 
 from functools import lru_cache
 from pathlib import Path
+import re
 
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 ROOT = Path(__file__).resolve().parents[1]
+VERSION = re.search(r"(?m)^version:\s*(\S+)", (ROOT / "pubspec.yaml").read_text(encoding="utf-8")).group(1)
+DISPLAY_VERSION = VERSION.split("+")[0]
 OUT = ROOT / "docs" / "images"
 SHOTS = ROOT / "docs" / "screenshots"
 NAVY = "#172239"
@@ -80,7 +83,7 @@ def overview():
     text(result, (106, 83), "ANDROID · PROXMOX VE", 23, BLUE, 600)
     text(result, (78, 154), "PVE 管家", 91, NAVY, 700)
     surface(result, (572, 190, 790, 248), 18, fill=BLUE, stroke=BLUE)
-    text(result, (601, 189), "v0.4.1", 37, "white", 600)
+    text(result, (601, 189), f"v{DISPLAY_VERSION}", 37, "white", 600)
     text(result, (83, 292), "把你的 PVE 带进口袋", 44, NAVY, 600)
     text(result, (85, 371), "虚拟机、容器与宿主节点", 29, MUTED)
     text(result, (85, 418), "在 Android 手机上统一查看与管理。", 29, MUTED)
@@ -92,7 +95,7 @@ def overview():
     phone(result, "node_monitoring_demo.png", (1480, 214), 350)
     text(result, (1140, 1001), "资源总览", 26, MUTED, 500)
     text(result, (1561, 1001), "宿主节点", 26, MUTED, 500)
-    text(result, (86, 968), "Android 7.0+  ·  版本 0.4.1+6", 23, MUTED, 500)
+    text(result, (86, 968), f"Android 7.0+  ·  版本 {VERSION}", 23, MUTED, 500)
     text(result, (86, 1008), "所有截图均为固定演示数据", 21, MUTED)
     result.convert("RGB").save(OUT / "pve-manager-overview.png", optimize=True)
 
@@ -101,7 +104,7 @@ def monitoring():
     result = Image.new("RGBA", (1920, 1080), BG)
     d = ImageDraw.Draw(result)
     d.ellipse((1230, -560, 2380, 590), fill="#E9EDFF")
-    text(result, (76, 49), "PVE 管家 v0.4.1 · 主机监控", 59, NAVY, 700)
+    text(result, (76, 49), f"PVE 管家 v{DISPLAY_VERSION} · 主机监控", 59, NAVY, 700)
     text(result, (80, 143), "节点资源与历史趋势，在手机上一起看清", 29, MUTED)
     source = Image.open(SHOTS / "node_monitoring_full_demo.png")
     text(result, (80, 216), "节点状态与存储用量", 28, BLUE, 600)

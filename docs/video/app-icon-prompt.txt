@@ -1,0 +1,9 @@
+Generation mode: built-in image_gen
+Use case: logo-brand
+Asset type: Android launcher app icon and promotional brand master for PVE 管家, exactly 1024 by 1024 pixels, square opaque PNG.
+Primary request: Create a refined, modern Android app icon for a mobile Proxmox VE resource manager. The central white mark combines three compact server trays / virtual machine layers into one elegant rounded abstract P-like symbol, with a small clear virtual cube accent integrated into the upper bowl. Aim for an ownable coherent silhouette, easily recognizable at 48 pixels. Minimal, precise, professional server administration aesthetic.
+Scene/backdrop: A full edge-to-edge solid indigo-blue canvas with a very gentle tonal blue gradient, no empty margins around the background.
+Color palette: Primary indigo #3448C8, deeper restrained indigo #172239, crisp white central symbol. Tiny restrained cool-blue detail only if useful.
+Style/medium: Polished mostly flat geometric icon, soft rounded geometry, subtle depth from tonal layering, very restrained shadow, no exaggerated glossy 3D.
+Composition/framing: Single centered symbol occupying approximately 60 to 65 percent of the canvas width and height. All important features stay in the center safety area for Android circular and squircle masks. Strong simple negative space, balanced spacing.
+Constraints: Full square canvas, do not draw pre-rounded outer corners, no surrounding device, no mockup, no letters or wordmarks or text or watermark, no literal Proxmox trademark logo, no rabbit or orange X, no complex tiny linework, no fine micro-details. Opaque background.
